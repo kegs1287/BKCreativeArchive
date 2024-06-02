@@ -1,29 +1,20 @@
 .specialp {
     color: #00f7ff;
-  }
-.specialp {
     background-color: #040200;
   }
 #specialid  {
 
     color: #048929;
-}
-
-#specialid {
     background-color: aliceblue;
 }
 
 .specialq {
     color: bisque;
-}
-.specialq {
     background-color: rgb(165, 6, 6);
 }
 
 .specialr {
     color: #0d9734;
-}
-.specialr { 
     background-color: rgb(241, 135, 232);
 }
 
@@ -41,12 +32,11 @@ a:hover {
   
   .spanstyle {
     color: #edf2f3;
-  }
-
-  .spanstyle {
     background-color: #664422;
   }
 
   .specials {
     background-color: #585858;
   }
+
+  
