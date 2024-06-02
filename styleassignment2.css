@@ -1,0 +1,91 @@
+.specialp {
+    background-color: #040200;
+  }
+#specialid  {
+
+    color: #048929;
+    background-color: aliceblue;
+}
+
+.specialq {
+    color: bisque;
+    background-color: rgb(165, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(clematis.jpeg);
+}
+
+.specialx {
+  color: bisque;
+  background-color: rgb(165, 6, 6);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(blackpan.jpeg);
+}
+
+.specialy {
+    color: bisque;
+    background-color: rgb(165, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(redwhite.jpeg);
+}
+
+.specialr {
+    color: #0d9734;
+    background-color: rgb(247, 202, 243);
+}
+
+a:link {
+    color: #ff0000;
+}
+
+a:hover {
+    color: #eaff00;
+  }        
+
+  a:visited {
+    color: #00ff48;
+  }
+  
+  .spanstyle {
+    color: #edf2f3;
+    background-color: #664422;
+  }
+
+  .specials {
+    background-color: #585858;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .justify {
+    text-align: justify
+  }
+
+  h1 {
+    color:#ff8000;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  h2 {
+    color:#ff8000;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  h3 {
+    color:#ff8000;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  .border {
+    border: 20px solid #040200;
+    padding: 10px;
+    background-color: #eeff00;
+  }
+
+
+
+ 
