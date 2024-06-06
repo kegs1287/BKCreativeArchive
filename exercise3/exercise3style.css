@@ -1,0 +1,75 @@
+body {
+background-image: url(e3bg.png);
+}
+
+.header1 {
+        background-color: rgb(255, 255, 255);
+        padding: 23px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-bottom: 10px;
+}
+
+div {
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  border-bottom: solid #000000;
+  border-bottom-width: medium;
+  padding-bottom: 10px;
+}
+
+.foot {
+    background-color: rgb(12, 12, 144);
+    border: 3px solid rgb(255, 255, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 22px 50px 22px 50px;
+}
+
+nav ul { 
+  padding: 0;
+}
+
+ nav li {
+    border: 1px solid rgb(12, 12, 144); 
+    width: 120px;      
+    background-color: rgb(12, 12, 144);  
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+ }
+
+ nav li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .just {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p a {
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  p a:hover {
+    text-decoration: underline;
+    color:red
+  }
+
+  nav li:hover {
+    background-color:blue
+  }
