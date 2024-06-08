@@ -45,13 +45,14 @@ nav ul {
     width: 120px;      
     background-color: rgb(12, 12, 144);  
     display: inline-block;
-    padding: 10px;
     margin: 5px;
+    padding: 10px;
  }
 
  nav li a {
     color: #ffffff;
     text-decoration: none;
+    display: block
   }
 
   .just {
