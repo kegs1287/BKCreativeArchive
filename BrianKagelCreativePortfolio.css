@@ -1,0 +1,134 @@
+#wrapper {
+  margin: 1em auto;
+  width: 1200px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px 503px 100px;
+}
+
+header {
+  grid-column: 3/ span 12;
+  height: 100px;
+  background-color: rgb(70, 209, 20);
+}
+
+nav {
+  grid-column: 1/ span 2;
+  grid-row: 1;
+  background-color: black;
+  grid-row-end: 4;
+}
+
+.ufo {
+  width: 150px;
+  padding: 25px 0px 25px 0px;
+  border-bottom: 2px solid rgb(70, 209, 20);
+  border-top: 2px solid rgb(70, 209, 20);
+  margin: 20px 25px 20px 25px;
+}
+
+main {
+  grid-column: 3/ span 12;
+}
+
+footer {
+  grid-column: 3/ span 12;
+  background-color: rgb(70, 209, 20);
+}
+
+.insta {
+  width: 75px;
+  float: right;
+  padding: 13px;
+}
+
+h1 {
+  padding: 30px;
+  margin: 0;
+  color: white;
+  font-style: italic;
+}
+
+.contact {
+  padding: 35px;
+  margin: 0;
+  font-size: 25px;
+  color: white;
+  font-style: italic;
+}
+
+nav ul {
+  background-color: white;
+  width: 130px;
+  margin: 15px;
+  padding: 20px;
+}
+
+nav li {   
+  background-color: rgb(70, 209, 20);
+  display: block;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+
+.aboutme {
+  text-align: center;
+  color: black;
+  padding: 0px 75px 0px 75px;
+  font-size: 18px;
+}
+
+.sideeye {
+  width: 320px;
+  padding: 0px 375px; 
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.line2 {
+  height: 2px;
+  background-color: white;
+  margin: 0px 50px 0px 50px;
+}
+
+.line3 {
+  height: 2px;
+  background-color: rgb(70, 209, 20);
+  margin: 20px 75px 0px 75px;
+}
+
+.line4 {
+  height: 2px;
+  background-color: white;
+  margin: 0px 50px 0px 50px;
+}
+
+.line5 {
+  height: 2px;
+  background-color: rgb(70, 209, 20);
+  margin: 20px 75px 20px 75px;
+}
+
+p a {
+  color: white;
+}
+
+p a:hover {
+  color: black; 
+}
+
+nav li:hover {
+  background-color:black;
+}
