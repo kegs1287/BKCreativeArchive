@@ -1,10 +1,10 @@
 #wrapper {
   margin: 1em auto;
   width: 1200px;
-  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 100px 503px 100px;
+  grid-template-rows: 100px 525px 100px;
+  box-shadow: 13px 13px 10px #999;
 }
 
 header {
@@ -13,49 +13,23 @@ header {
   background-color: rgb(70, 209, 20);
 }
 
-nav {
-  grid-column: 1/ span 2;
-  grid-row: 1;
-  background-color: black;
-  grid-row-end: 4;
-}
-
-.ufo {
-  width: 150px;
-  padding: 25px 0px 25px 0px;
-  border-bottom: 2px solid rgb(70, 209, 20);
-  border-top: 2px solid rgb(70, 209, 20);
-  margin: 20px 25px 20px 25px;
-}
-
-main {
-  grid-column: 3/ span 12;
-}
-
-footer {
-  grid-column: 3/ span 12;
-  background-color: rgb(70, 209, 20);
-}
-
-.insta {
-  width: 75px;
-  float: right;
-  padding: 13px;
-}
-
 h1 {
   padding: 30px;
   margin: 0;
   color: white;
   font-style: italic;
+  box-shadow: 10px 10px 10px #999;
+  text-shadow: 2px 2px 2px #000;
+  font-family: "Audiowide", sans-serif;
 }
 
-.contact {
-  padding: 35px;
-  margin: 0;
-  font-size: 25px;
-  color: white;
-  font-style: italic;
+nav {
+  grid-column: 1/ span 2;
+  grid-row: 1;
+  background-color: black;
+  grid-row-end: 4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 nav ul {
@@ -63,6 +37,8 @@ nav ul {
   width: 130px;
   margin: 15px;
   padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 nav li {   
@@ -70,24 +46,9 @@ nav li {
   display: block;
   margin: 20px 0px 20px 0px;
   text-align: center;
-}
-
-h2 {
-  text-align: center;
-  text-decoration: underline;
-  color: black;
-}
-
-.aboutme {
-  text-align: center;
-  color: black;
-  padding: 0px 75px 0px 75px;
-  font-size: 18px;
-}
-
-.sideeye {
-  width: 320px;
-  padding: 0px 375px; 
+  box-shadow: 10px 10px 10px #999;
+  transition: background-color 1.0s, color 1.0s; 
+  font-family: "Audiowide", sans-serif; 
 }
 
 nav li a {
@@ -97,10 +58,37 @@ nav li a {
   padding: 15px;
 }
 
+nav li:hover {
+  background-color:black;
+}
+
+nav li a:hover {
+  color: rgb(70, 209, 20);
+}
+
+.ufo {
+  width: 166px;
+  padding: 25px 0px 0px 0px;
+  border-top: 2px solid rgb(70, 209, 20);
+  margin: 20px 25px 0px 17px;
+}
+
+.player {
+  width: 140px;
+  height: 25px;
+  padding: 0px 30px;
+}
+
+.line1 {
+  height: 2px;
+  background-color: rgb(70, 209, 20);
+  margin: 0px 18px;
+}
+
 .line2 {
   height: 2px;
   background-color: white;
-  margin: 0px 50px 0px 50px;
+  margin: 20px 50px 0px 50px;
 }
 
 .line3 {
@@ -121,14 +109,74 @@ nav li a {
   margin: 20px 75px 20px 75px;
 }
 
+main {
+  grid-column: 3/ span 12;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  text-shadow: 2px 2px 2px rgb(70, 209, 20);
+  font-family: "Jersey 10", sans-serif;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.aboutme {
+  text-align: center;
+  color: black;
+  padding: 0px 50px 0px 50px;
+  font-size: 24px;
+  font-family: "Jersey 10", sans-serif;
+  text-shadow: 2px 2px 2px rgb(70, 209, 20);
+  margin-top: 5px;  
+  margin-bottom: 5px;
+}
+
+.sideeye {
+  width: 320px;
+  padding: 0px 375px; 
+}
+
+footer {
+  grid-column: 3/ span 12;
+  background-color: rgb(70, 209, 20);
+  box-shadow: 10px 10px 10px #999;
+}
+
+.bi {
+  width: 75px;
+  float: right;
+  padding: 10px 10px 5px 10px;
+  font-size: 75px;
+  color: white;
+  transition: color 1.0s; 
+}
+
+.bi:hover {
+  color: black;
+}
+
+.contact {
+  padding: 35px;
+  margin: 0;
+  font-size: 25px;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #000;
+  font-family: "Audiowide", sans-serif;
+}
+
 p a {
   color: white;
+  transition: color 1.0s;
 }
 
 p a:hover {
   color: black; 
 }
 
-nav li:hover {
-  background-color:black;
-}
+
+
