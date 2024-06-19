@@ -153,6 +153,7 @@ footer {
   font-size: 75px;
   color: white;
   transition: color 1.0s; 
+  text-shadow: 2px 2px 2px #000;
 }
 
 .bi:hover {
