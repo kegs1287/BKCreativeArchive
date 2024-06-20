@@ -158,6 +158,7 @@ footer {
 
 .bi:hover {
   color: black;
+  text-shadow: 2px 2px 2px white;
 }
 
 .contact {
@@ -177,6 +178,7 @@ p a {
 
 p a:hover {
   color: black; 
+  text-shadow: 2px 2px 2px white;
 }
 
 
