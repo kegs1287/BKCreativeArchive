@@ -1,0 +1,234 @@
+#wrapper {
+    margin: 1em auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 875px 100px;
+    box-shadow: 13px 13px 10px #999;
+  }
+  
+  header {
+    grid-column: 3/ span 12;
+    background-color: purple;
+  }
+  
+  h1 {
+    padding: 30px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  nav {
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    background-color: black;
+    grid-row-end: 4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  nav ul {
+    background-color: white;
+    width: 130px;
+    margin: 15px 150px 0px 15px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  nav li {   
+    background-color: purple;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #999;
+    transition: background-color 1.0s, color 1.0s; 
+    font-family: "Audiowide", sans-serif; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+  }
+  
+  nav li:hover {
+    background-color:black;
+  }
+  
+  nav li a:hover {
+    color: purple;
+  }
+  
+  .headshot {
+    width: 166px;
+    padding: 25px 0px 0px 0px;
+    border-top: 2px solid purple;
+    margin: 20px 25px 25px 17px;
+    float: none;
+  }
+  
+  .line1 {
+    height: 2px;
+    background-color: purple;
+    margin: 0px 18px;
+  }
+  
+  .line2 {
+    height: 2px;
+    background-color: white;
+    margin: 20px 50px 0px 50px;
+  }
+  
+  .line3 {
+    height: 2px;
+    background-color: purple;
+    margin: 20px 75px 50px 75px;
+  }
+  
+  .line4 {
+    height: 2px;
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+  }
+  
+  .line5 {
+    height: 2px;
+    background-color: purple;
+    margin: 50px 75px 20px 75px;
+  }
+ 
+  h3 {
+    padding-left: 17px;
+    font-size: 116%;
+  }
+ 
+  footer {
+    grid-column: 3/ span 12;
+    background-color: purple;
+    box-shadow: 10px 10px 10px #999;
+  }
+  
+  .bi {
+    float: right;
+    padding: 10px 10px 5px 10px;
+    font-size: 75px;
+    color: white;
+    transition: color 1.0s; 
+    text-shadow: 2px 2px 2px #000;
+  }
+  
+  .bi:hover {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+  }
+  
+.fa {
+    float: right;
+    padding: 10px 10px 5px 10px;
+    font-size: 75px;
+    color: white;
+    transition: color 1.0s; 
+    text-shadow: 2px 2px 2px #000;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+  .contact {
+    padding: 35px 0px 35px 25px;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000;
+    font-family: "Audiowide", sans-serif;
+    text-align: left;
+  }
+  
+  p a {
+    color: white;
+    transition: color 1.0s;
+  }
+  
+  p a:hover {
+    color: black; 
+    text-shadow: 2px 2px 2px white;
+  }
+  
+ul {
+    margin: 5px;
+    padding-left: 80px;
+  }
+  
+.discog {
+    grid-column: 3 / span 7;
+  }
+
+img {
+    float: left;
+    width: 175px;
+}
+
+.picsvids {
+   grid-column: 10 / span 3;
+   margin: 5px 63px
+  }
+
+  h2 {
+    margin: 5px 0px 10px 0px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 0px purple;
+    font-family: "Audiowide", sans-serif;
+  }
+
+.jazz1 {
+  float: none;
+}
+
+.jazz2 {
+  float: none;
+}
+
+.jazz {
+  padding: 25px 0px 0px 0px;
+}
+
+.catgoes {
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  padding: 0px 17px;
+  margin: 0px;
+  text-shadow: 1px 1px 0px purple;
+  font-family: "Audiowide", sans-serif;
+}
+
+.weft {
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  padding: 0px 17px;
+  margin: 0px;
+  text-shadow: 1px 1px 0px purple;
+  font-family: "Audiowide", sans-serif;
+}
+
+p {
+  padding: 10px 40px 0px 40px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  text-shadow: 1px 1px 0px purple;
+  font-family: "Audiowide", sans-serif;
+  margin: 0px;
+}
