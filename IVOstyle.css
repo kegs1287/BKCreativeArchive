@@ -3,19 +3,13 @@
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 700px 100px;
+    grid-template-rows: 100px 750px 100px;
     box-shadow: 13px 13px 10px #999;
   }
   
   header {
     grid-column: 3/ span 12;
     background-color: skyblue;
-  }
-
-  .ivologo {
-    float: right;
-    width: 199px;
-    padding-right: 50px;
   }
   
   h1 {
@@ -79,16 +73,12 @@
     margin: 20px 25px 25px 17px;
     float: none;
   }
-  
-  video {
-    padding: 0px 17px;
-  }
 
   .members {
     font-size: 11px;
     color: white;
     text-align: center;
-    padding: 0px 17px;
+    padding: 50px 17px 0px 17px;
     margin: 0px;
     text-shadow: 1px 1px 0px skyblue;
     font-family: "Audiowide", sans-serif;
@@ -98,7 +88,7 @@
         font-size: 11px;
         color: white;
         text-align: center;
-        padding: 0px 17px;
+        padding: 30px 17px 0px 17px;
         margin: 0px;
         text-shadow: 1px 1px 0px skyblue;
         font-family: "Audiowide", sans-serif;
@@ -131,14 +121,10 @@
   .line5 {
     height: 2px;
     background-color: skyblue;
-    margin: 15px 75px 20px 75px;
+    margin: 50px 75px 20px 75px;
   }
- 
-  h3 {
-    padding-left: 17px;
-    font-size: 116%;
-  }
- 
+
+  
   footer {
     grid-column: 3/ span 12;
     background-color: skyblue;
@@ -172,38 +158,52 @@
 .fa:hover {
     color: black;
     text-shadow: 2px 2px 2px white;
-}
-
-  .contact {
-    padding: 35px;
-    margin: 0;
-    font-size: 25px;
-    color: white;
-    font-style: italic;
-    text-shadow: 2px 2px 2px #000;
-    font-family: "Audiowide", sans-serif;
-  }
-  
-  
-ul {
-    margin: 5px;
-    padding-left: 80px;
-  }
+}  
   
 .discog {
-    border: 2px solid black;  
     grid-column: 3 / span 7;
-    
-  }
+   }
 
 img {
     float: left;
     width: 232px;
-    
-}
+ }
 
-.about {
-   display: grid;
-   grid-column: 10 / span 3;
-   margin: 0px;
+ .videos { 
+  margin-top: 250px;
+  padding-right: 40px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 0px skyblue;
+ }
+
+  #myCarousel {
+    padding-top: 10px;
+    padding-left: 32px;
+    height: 310px;
   }
+
+  #myCarousel2 {
+    height: 310px;
+    padding: 10px 35px 0px 35px;
+  }
+
+  .f-carousel {
+    --f-button-width: 15px;
+    --f-button-height: 25px;
+    --f-button-color: black;  
+  }
+
+  .picsvids {
+    grid-column: 10 / span 3;
+   }
+
+.picturesvideos {
+   display: grid;
+   margin: 10px 10px 0px 10px;
+   text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 0px skyblue;
+  font-family: "Audiowide", sans-serif;
+  }
+

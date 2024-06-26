@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>IVO's Discography</title>
+	<title>IVO's Discography & Multimedia</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
@@ -11,13 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 	<link href="IVOstyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrapper">
 		<header>
-          <img class="ivologo" src="ivologo.png" alt="ivologo"> 
-		  <h1>IVO's Discography</h1>
+		  <h1>IVO's Discography & Multimedia</h1>
 		</header>
 		<nav>
 		  <ul>
@@ -41,18 +44,54 @@
                 Bloomington, IL
             </p>
 			</nav>
-              <div class="discog">
-              <img src="ivolive.jpg" alt="ivolive">
-              <img src="secrets.jpg" alt="secrets">
-              <img src="deepfakecover.jpg" alt="deepfakecover">
-              </div>
-              <h2 class="about">About</h2> 
-		<footer>
-			<a class="bi bi-instagram" href="https://instagram.com/brian_k_______" target="blank"></a> 
-            <a class="bi bi-spotify" href="https://open.spotify.com/artist/2bSi1f4u6B8HITKEKCZt9P?si=sGWj7qnuRGmABdgtyqXizQ" target="blank"></a>
-            <a class="fa fa-bandcamp" href="https://ivotheband.bandcamp.com" target="blank"></a>
-            <a class="bi bi-eye" href="https://ivotheband.com" target="blank"></a>
-		  </footer>
+			<div class="discog">
+				<div class="image">
+				<a href="ivolive.jpg" data-fancybox="gallery" data-caption="Live Vol. II: Nightshop Bloomington, IL March 21, 2022 (2022)" ><img src="ivolive.jpg"></a>
+				<a href="secrets.jpg" data-fancybox="gallery" data-caption="Secret Architects of the Future (2023)"><img src="secrets.jpg"></a>
+				<a href="deepfakecover.jpg" data-fancybox="gallery" data-caption="Deep Fake Cover (2023)"><img src="deepfakecover.jpg"></a></div>
+				<iframe style="border: 0; width: 230px; height: 500px; padding-bottom: 33px;" src="https://bandcamp.com/EmbeddedPlayer/album=789354388/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="https://ivotheband.bandcamp.com/album/live-vol-ii-nightshop-bloomington-il-march-21-2022">LIVE VOL. II: NIGHTSHOP BLOOMINGTON, IL MARCH 21, 2022 by IVO</a></iframe>
+				<iframe style="border: 0; width: 230px; height: 500px; padding-bottom: 33px;" src="https://bandcamp.com/EmbeddedPlayer/album=889996143/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="https://ivotheband.bandcamp.com/album/secret-architects-of-the-future">SECRET ARCHITECTS OF THE FUTURE by IVO</a></iframe>
+				<iframe style="border: 0; width: 230px; height: 500px; padding-bottom: 33px;" src="https://bandcamp.com/EmbeddedPlayer/album=986652028/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="https://ivotheband.bandcamp.com/album/deep-fake-cover-ep">DEEP FAKE COVER [EP] by IVO</a></iframe>
+			</div>
+			<div class="picsvids">
+	            <h2 class="picturesvideos">Pictures & Videos</h2> 
+				<div id="myCarousel" class="f-carousel">
+					<div class="f-carousel__slide"><img src="ivopic4.png"></div>
+					<div class="f-carousel__slide"><img src="ivopic2.png"></div>
+					<div class="f-carousel__slide"><img src="ivopic3.png"></div>
+					<div class="f-carousel__slide"><img src="ivopic13.png"></div>
+					<div class="f-carousel__slide"><img src="ivopic14.png"></div>
+					<div class="f-carousel__slide"><img src="ivopic1.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic8.png"></div>
+					<div class="f-carousel__slide"><img src="ivopic12.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic11.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic6.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic7.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic9.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic10.jpg"></div>
+					<div class="f-carousel__slide"><img src="ivopic5.jpg"></div>
+				</div>
+				<div id="myCarousel2" class="f-carousel">
+					<div class="f-carousel__slide"><iframe width="230" height="300" src="https://www.youtube.com/embed/VnRc4F_31a0?si=9KSGZHLt_fAESD5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+					<div class="f-carousel__slide"><iframe width="230" height="300" src="https://www.youtube.com/embed/YWgn3RytSZ0?si=iADNoBl9O1UYAqJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+					<div class="f-carousel__slide"><iframe width="230" height="300" src="https://www.youtube.com/embed/8YWKWMKIrcU?si=zv6Jb2JMpx6ssS3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>	
+			</div>
+		</div>
+	<footer>
+		<a class="bi bi-instagram" href="https://instagram.com/brian_k_______" target="blank"></a> 
+        <a class="bi bi-spotify" href="https://open.spotify.com/artist/5G7dywDJgKExeb3BAYOMrU?si=1TRxG-adQrS_tuoyXEF0Qw" target="blank"></a>
+        <a class="fa fa-bandcamp" href="https://ivotheband.bandcamp.com" target="blank"></a><a class="bi bi-eye" href="https://ivotheband.com" target="blank"></a>
+	 </footer>
 	</div>
+	<script>   
+		Fancybox.bind("[data-fancybox]", {});
+		const container = document.getElementById("myCarousel");
+    	const options = { infinite: false };
+    	new Carousel(container, options);
+		const container2 = document.getElementById("myCarousel2");
+    const options2 = { infinite: false };
+    new Carousel(container2, options2);
+	 </script>
 </body>
 </html>
