@@ -119,7 +119,7 @@ h2 {
   text-decoration: underline;
   color: black;
   text-shadow: 2px 2px 2px rgb(70, 209, 20);
-  font-family: "Jersey 10", sans-serif;
+  font-family: "Audiowide", sans-serif; 
   font-size: 50px;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -129,8 +129,8 @@ h2 {
   text-align: center;
   color: black;
   padding: 0px 50px 0px 50px;
-  font-size: 24px;
-  font-family: "Jersey 10", sans-serif;
+  font-size: 16px;
+  font-family: "Audiowide", sans-serif; 
   text-shadow: 2px 2px 2px rgb(70, 209, 20);
   margin-top: 5px;  
   margin-bottom: 5px;

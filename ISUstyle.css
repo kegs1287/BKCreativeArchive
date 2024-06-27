@@ -111,24 +111,25 @@
   .CTK240 {
     text-align: left;
     color: black;
-    font-size: 30px;
-    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif; 
     text-shadow: 2px 2px 2px red;
     text-decoration: underline;
     padding-left: 17px;
     margin-bottom: 0px;
+    margin-top: 30px;
   }
 
   .CTK301 {
     text-align: left;
     color: black;
     padding-left: 17px;
-    font-size: 30px;
-    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif; 
     text-shadow: 2px 2px 2px red;
     text-decoration: underline;
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .twofourzero {
@@ -136,11 +137,10 @@
     text-decoration: underline;
     color: black;
     text-shadow: 2px 2px 2px red;
-    font-family: "Teko", sans-serif;
-    font-size: 25px;
+    font-family: "Audiowide", sans-serif; 
+    font-size: 18px;
     padding-left: 32px;
-    margin-top: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
 
   .player {
@@ -154,16 +154,17 @@
     text-decoration: underline;
     color: black;
     text-shadow: 2px 2px 2px red;
-    font-family: "Teko", sans-serif;
-    font-size: 25px;
+    font-family: "Audiowide", sans-serif; 
+    font-size: 16px;
     padding-left: 32px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   h3 {
-    padding-left: 17px;
-    font-size: 116%;
+    font-size: 87%;
+    font-family: "Audiowide", sans-serif;
+    margin-top: 25px; 
   }
 
   .Reggie   {
@@ -203,16 +204,12 @@
     font-size: 100%;
   }
   
-ul {
-    margin: 5px;
-    padding-left: 80px;
-}
 
  ul li .link {
     color: red;
     transition: color 1.0s;
-    font-family: "Teko", sans-serif;
-    font-size: 25px;
+    font-family: "Audiowide", sans-serif; 
+    font-size: 18px;
     text-shadow: 2px 2px 2px #000;
   }
   
