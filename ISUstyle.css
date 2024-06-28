@@ -112,8 +112,8 @@
     text-align: left;
     color: black;
     font-size: 20px;
-    font-family: "Audiowide", sans-serif; 
-    text-shadow: 2px 2px 2px red;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 1px 1px 0px red;
     text-decoration: underline;
     padding-left: 17px;
     margin-bottom: 0px;
@@ -125,8 +125,8 @@
     color: black;
     padding-left: 17px;
     font-size: 20px;
-    font-family: "Audiowide", sans-serif; 
-    text-shadow: 2px 2px 2px red;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 1px 1px 0px red;
     text-decoration: underline;
     margin-bottom: 0px;
     margin-top: 30px;
@@ -136,8 +136,8 @@
     text-align: left;
     text-decoration: underline;
     color: black;
-    text-shadow: 2px 2px 2px red;
-    font-family: "Audiowide", sans-serif; 
+    text-shadow: 1px 1px 0px red;
+    font-family: "Chakra Petch", sans-serif;
     font-size: 18px;
     padding-left: 32px;
     margin-top: 10px;
@@ -153,8 +153,8 @@
     text-align: left;
     text-decoration: underline;
     color: black;
-    text-shadow: 2px 2px 2px red;
-    font-family: "Audiowide", sans-serif; 
+    text-shadow: 1px 1px 0px red;
+    font-family: "Chakra Petch", sans-serif;
     font-size: 16px;
     padding-left: 32px;
     margin-top: 10px;
@@ -162,8 +162,8 @@
   }
 
   h3 {
-    font-size: 87%;
-    font-family: "Audiowide", sans-serif;
+    font-size: 95%;
+    font-family: "Chakra Petch", sans-serif;
     margin-top: 25px; 
   }
 
@@ -206,11 +206,10 @@
   
 
  ul li .link {
-    color: red;
+    color: black;
     transition: color 1.0s;
     font-family: "Audiowide", sans-serif; 
     font-size: 18px;
-    text-shadow: 2px 2px 2px #000;
   }
   
  ul li .link:hover {
