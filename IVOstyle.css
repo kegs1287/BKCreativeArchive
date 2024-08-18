@@ -78,7 +78,7 @@
     font-size: 17px;
     color: white;
     text-align: center;
-    padding: 30px 17px 0px 17px;
+    padding: 10px 17px 0px 17px;
     margin: 0px;
     text-shadow: 1px 1px 0px skyblue;
     font-family: "Audiowide", sans-serif;
@@ -121,7 +121,7 @@
   .line5 {
     height: 2px;
     background-color: skyblue;
-    margin: 40px 75px 20px 75px;
+    margin: 10px 75px 20px 75px;
   }
 
   
