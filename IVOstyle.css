@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 100px 750px 100px;
-    box-shadow: 13px 13px 10px #999;
+    box-shadow: 13px 13px 10px rgb(84, 84, 252);
   }
   
   header {
@@ -17,14 +17,14 @@
     margin: 0;
     color: white;
     font-style: italic;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px darkblue;
     font-family: "Audiowide", sans-serif;
   }
   
   nav {
     grid-column: 1/ span 2;
     grid-row: 1;
-    background-color: black;
+    background-color: darkblue;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -44,7 +44,7 @@
     display: block;
     margin: 20px 0px 20px 0px;
     text-align: center;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 10px 10px 10px darkblue;
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -59,7 +59,7 @@
   }
   
   nav li:hover {
-    background-color:black;
+    background-color:darkblue;
   }
   
   nav li a:hover {
@@ -68,9 +68,9 @@
   
   .ivopanel {
     width: 166px;
-    padding: 25px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
     border-top: 2px solid skyblue;
-    margin: 20px 25px 25px 17px;
+    margin: 5px 25px 5px 17px;
     float: none;
   }
 
@@ -103,13 +103,13 @@
   .line2 {
     height: 2px;
     background-color: white;
-    margin: 20px 50px 0px 50px;
+    margin: 5px 50px 0px 50px;
   }
   
   .line3 {
     height: 2px;
     background-color: skyblue;
-    margin: 20px 75px 0px 75px;
+    margin: 5px 75px 0px 75px;
   }
   
   .line4 {
@@ -121,14 +121,14 @@
   .line5 {
     height: 2px;
     background-color: skyblue;
-    margin: 10px 75px 20px 75px;
+    margin: 25px 75px 5px 75px;
   }
 
   
   footer {
     grid-column: 3/ span 12;
     background-color: skyblue;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 13px 13px 10px rgb(84, 84, 252);
   }
   
   .bi {
@@ -137,11 +137,11 @@
     font-size: 75px;
     color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px darkblue;
   }
   
   .bi:hover {
-    color: black;
+    color: darkblue;
     text-shadow: 2px 2px 2px white;
   }
   
@@ -151,12 +151,12 @@
     font-size: 75px;
     color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px darkblue;
     text-decoration: none;
 }
 
 .fa:hover {
-    color: black;
+    color: darkblue;
     text-shadow: 2px 2px 2px white;
 }  
   
@@ -191,7 +191,7 @@ img {
   .f-carousel {
     --f-button-width: 15px;
     --f-button-height: 25px;
-    --f-button-color: black;  
+    --f-button-color: darkblue;  
   }
 
   .picsvids {

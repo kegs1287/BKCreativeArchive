@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 100px 875px 100px;
-    box-shadow: 13px 13px 10px #999;
+    box-shadow: 13px 13px 10px plum;
   }
   
   header {
@@ -17,14 +17,14 @@
     margin: 0;
     color: white;
     font-style: italic;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px plum;
     font-family: "Audiowide", sans-serif;
   }
   
   nav {
     grid-column: 1/ span 2;
     grid-row: 1;
-    background-color: black;
+    background-color: plum;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -44,7 +44,7 @@
     display: block;
     margin: 20px 0px 20px 0px;
     text-align: center;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 10px 10px 10px plum;
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -59,7 +59,7 @@
   }
   
   nav li:hover {
-    background-color:black;
+    background-color:plum;
   }
   
   nav li a:hover {
@@ -67,10 +67,10 @@
   }
   
   .headshot {
-    width: 166px;
-    padding: 25px 0px 0px 0px;
+    width: 165px;
+    padding: 5px 0px 0px 0px;
     border-top: 2px solid purple;
-    margin: 20px 25px 25px 17px;
+    margin: 5px 15px 5px 17px;
     float: none;
   }
   
@@ -83,13 +83,13 @@
   .line2 {
     height: 2px;
     background-color: white;
-    margin: 20px 50px 0px 50px;
+    margin: 5px 50px 0px 50px;
   }
   
   .line3 {
     height: 2px;
     background-color: purple;
-    margin: 20px 75px 25px 75px;
+    margin: 5px 75px 25px 75px;
   }
   
   .line4 {
@@ -101,7 +101,7 @@
   .line5 {
     height: 2px;
     background-color: purple;
-    margin: 18px 75px 20px 75px;
+    margin: 25px 75px 5px 75px;
   }
  
   h3 {
@@ -112,7 +112,7 @@
   footer {
     grid-column: 3/ span 12;
     background-color: purple;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 10px 10px 10px plum;
   }
   
   .bi {
@@ -121,11 +121,11 @@
     font-size: 75px;
     color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px plum;
   }
   
   .bi:hover {
-    color: black;
+    color: plum;
     text-shadow: 2px 2px 2px white;
   }
   
@@ -135,12 +135,12 @@
     font-size: 75px;
     color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px plum;
     text-decoration: none;
 }
 
 .fa:hover {
-    color: black;
+    color:  plum;
     text-shadow: 2px 2px 2px white;
 }
 
@@ -150,7 +150,7 @@
     font-size: 25px;
     color: white;
     font-style: italic;
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px  plum;
     font-family: "Audiowide", sans-serif;
     text-align: left;
   }
@@ -161,7 +161,7 @@
   }
   
   p a:hover {
-    color: black; 
+    color: plum; 
     text-shadow: 2px 2px 2px white;
   }
   
@@ -198,7 +198,7 @@ iframe {
 
 .catgoes {
   font-size: 12px;
-  color: black;
+  color: plum;
   text-align: center;
   padding: 0px 17px;
   margin: 0px;
@@ -212,7 +212,7 @@ iframe {
 
 .weft {
   font-size: 12px;
-  color: black;
+  color: plum;
   text-align: center;
   padding: 0px 17px;
   margin: 0px;

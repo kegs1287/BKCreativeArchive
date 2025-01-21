@@ -67,10 +67,10 @@
   }
   
   .seal {
-    width: 166px;
-    padding: 25px 0px 0px 0px;
+    width: 165px;
+    padding: 5px 0px 0px 0px;
     border-top: 2px solid red;
-    margin: 20px 25px 25px 17px;
+    margin: 5px 25px 5px 17px;
   }
   
   
@@ -83,13 +83,13 @@
   .line2 {
     height: 2px;
     background-color: white;
-    margin: 20px 50px 0px 50px;
+    margin: 5px 50px 0px 50px;
   }
   
   .line3 {
     height: 2px;
     background-color: red;
-    margin: 20px 75px 0px 75px;
+    margin: 5px 75px 0px 75px;
   }
   
   .line4 {
@@ -101,7 +101,7 @@
   .line5 {
     height: 2px;
     background-color: red;
-    margin: 18px 75px 20px 75px;
+    margin: 30px 75px 5px 75px;
   }
   
   main {
@@ -121,6 +121,18 @@
   }
 
   .CTK301 {
+    text-align: left;
+    color: black;
+    padding-left: 17px;
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 1px 1px 0px red;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+
+  .CTK345 {
     text-align: left;
     color: black;
     padding-left: 17px;
@@ -161,6 +173,19 @@
     margin-bottom: 10px;
   }
 
+  .threefourfive {
+    text-align: left;
+    text-decoration: underline;
+    color: black;
+    text-shadow: 1px 1px 0px red;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    padding-left: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+  }
+  
   h3 {
     font-size: 95%;
     font-family: "Chakra Petch", sans-serif;
@@ -217,6 +242,8 @@
     text-shadow: 2px 2px 2px red;
   }
   
-  
+.ivo {
+  padding: 0px 0px 0px 30px;
+}
   
   

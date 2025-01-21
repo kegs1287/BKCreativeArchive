@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 100px 525px 100px;
-    box-shadow: 13px 13px 10px #999;
+    box-shadow: 13px 13px 10px orange;
   }
   
   header {
@@ -78,10 +78,10 @@
   }
   
   .uofi {
-    width: 166px;
+    width: 155px;
     padding: 5px 0px 0px 0px;
     border-top: 2px solid blue;
-    margin: 20px 25px 0px 17px;
+    margin: 5px 25px 0px 17px;
   }
 
   
@@ -94,13 +94,13 @@
   .line2 {
     height: 2px;
     background-color: blue;
-    margin: 20px 50px 0px 50px;
+    margin: 5px 50px 0px 50px;
   }
   
   .line3 {
     height: 2px;
     background-color: blue;
-    margin: 20px 75px 0px 75px;
+    margin: 5px 75px 0px 75px;
   }
   
   .line4 {
@@ -112,7 +112,7 @@
   .line5 {
     height: 2px;
     background-color: blue;
-    margin: 17px 75px 20px 75px;
+    margin: 17px 75px 5px 75px;
   }
   
   main {
