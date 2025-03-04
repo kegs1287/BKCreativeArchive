@@ -5,13 +5,13 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 100px 2123px 100px;
-    box-shadow: 10px 10px 10px rgb(0, 233, 233)
+    box-shadow: 10px 10px 10px #53eeee;
   }
   
   header {
     grid-column: 3/ span 12;
     height: 100px;
-    background-color: rgb(42, 39, 39);
+    background-color: rgb(63, 56, 56);
   }
   
   h1 {
@@ -19,17 +19,7 @@
     margin: 0;
     color: white;
     font-style: italic;
-    text-shadow: 2px 2px 2px teal;
-    font-family: "Audiowide", sans-serif;
-    font-size: 26px;
-  }
-
-  p {
-    padding: 30px;
-    margin: 0;
-    color: teal;
-    font-style: italic;
-    text-shadow: 2px 2px 2px rgb(0, 233, 233);
+    text-shadow: 2px 2px 2px #53eeee;
     font-family: "Audiowide", sans-serif;
     font-size: 26px;
   }
@@ -37,7 +27,7 @@
   nav {
     grid-column: 1/ span 2;
     grid-row: 1;
-    background-color: teal;
+    background-color: #53eeee;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -53,11 +43,11 @@
   }
   
   nav li {   
-    background-color: rgb(42, 39, 39);;
+    background-color: rgb(63, 56, 56);
     display: block;
     margin: 20px 0px 20px 0px;
     text-align: center;
-    box-shadow: 10px 10px 10px rgb(63, 56, 56);;
+    box-shadow: 10px 10px 10px rgb(63, 56, 56);
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -72,36 +62,36 @@
   }
   
   nav li:hover {
-    background-color:teal;
+    background-color:#53eeee;
   }
   
   nav li a:hover {
-    color: rgb(42, 39, 39);;
+    color: rgb(42, 39, 39);
   }
   
   .uofi {
     width: 166px;
     padding: 5px 0px 0px 0px;
-    border-top: 2px solid rgb(42, 39, 39);;
+    border-top: 2px solid rgb(63, 56, 56);
     margin: 20px 25px 0px 17px;
   }
 
   
   .line1 {
     height: 2px;
-    background-color: rgb(42, 39, 39);;
+    background-color: rgb(63, 56, 56);
     margin: 0px 18px;
   }
   
   .line2 {
     height: 2px;
-    background-color: rgb(42, 39, 39);;
+    background-color: rgb(63, 56, 56);
     margin: 20px 50px 0px 50px;
   }
   
   .line3 {
     height: 2px;
-    background-color: rgb(42, 39, 39);;
+    background-color: rgb(63, 56, 56);
     margin: 20px 75px 0px 75px;
   }
   
@@ -120,15 +110,14 @@
   main {
     grid-column: 3/ span 12;
   }
-  
+
   h2 {
-    text-align: left;
     text-decoration: underline;
-    color: rgb(63, 56, 56);;
-    text-shadow: 2px 2px 2px teal;
+    text-shadow: 2px 2px 2px #53eeee;
     font-family: "Audiowide", sans-serif; 
     font-size: 30px;
-   padding-left: 20px;
+    padding-left: 30px;
+    font-style: italic;
   }
 
 
@@ -144,11 +133,11 @@
     font-size: 75px;
     color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px teal;
+    text-shadow: 2px 2px 2px #53eeee;
   }
   
   .bi:hover {
-    color: teal
+    color: #53eeee;
     text-shadow: 2px 2px 2px white;
   }
   
@@ -163,12 +152,12 @@
     padding: 388px;
     font-family: "Audiowide", sans-serif; 
     color: rgb(63, 56, 56);
-    text-shadow: 2px 2px 2px teal;
+    text-shadow: 2px 2px 2px #53eeee;
     font-size: 24px;
   }
 
   .download:hover {
     color: rgb(0, 233, 233);
-    text-shadow: 2px 2px 2px black; 
+    text-shadow: 2px 2px 2px rgb(63, 56, 56); 
   }
   
