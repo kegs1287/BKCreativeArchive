@@ -23,6 +23,13 @@
     font-family: "Audiowide", sans-serif;
     font-size: 26px;
   }
+
+  p {
+    text-align: center;
+    font-family: "Audiowide", sans-serif; 
+    margin-top: 0px;
+    margin-right: 47px;
+  }
   
   nav {
     grid-column: 1/ span 2;
