@@ -155,12 +155,12 @@
     text-align: left;
   }
   
-  p a {
+  h3 a {
     color: white;
     transition: color 1.0s;
   }
   
-  p a:hover {
+  h3 a:hover {
     color: plum; 
     text-shadow: 2px 2px 2px white;
   }
@@ -198,11 +198,11 @@ iframe {
 
 .catgoes {
   font-size: 12px;
-  color: plum;
+  color: purple;
   text-align: center;
   padding: 0px 17px;
   margin: 0px;
-  text-shadow: 1px 1px 0px purple;
+  text-shadow: 1px 1px 0px plum;
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -212,11 +212,11 @@ iframe {
 
 .weft {
   font-size: 12px;
-  color: plum;
+  color: purple;
   text-align: center;
   padding: 0px 17px;
   margin: 0px;
-  text-shadow: 1px 1px 0px purple;
+  text-shadow: 1px 1px 0px plum;
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -224,8 +224,15 @@ p {
   padding: 0px 40px 0px 40px;
   text-align: center;
   font-size: 14px;
-  color: white;
-  text-shadow: 1px 1px 0px purple;
+  color: purple;
+  text-shadow: 1px 1px 0px white;
   font-family: "Audiowide", sans-serif;
   margin: 0px;
+}
+
+iframe {
+  width: 176px;
+  height: 180px;
+  margin-top: 30px;
+  padding: 0px;
 }
