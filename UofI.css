@@ -136,21 +136,6 @@
     box-shadow: 10px 10px 10px #999;
   }
   
-  .bi {
-    width: 75px;
-    float: right;
-    padding: 10px 10px 5px 10px;
-    font-size: 75px;
-    color: white;
-    transition: color 1.0s; 
-    text-shadow: 2px 2px 2px orange;
-  }
-  
-  .bi:hover {
-    color: orange;
-    text-shadow: 2px 2px 2px white;
-  }
-  
   .illini {
     padding: 20px 30px;
     margin: 0;
