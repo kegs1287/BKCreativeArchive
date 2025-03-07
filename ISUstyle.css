@@ -52,7 +52,7 @@
   }
   
   nav li a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     display: block;
     padding: 15px;
@@ -146,7 +146,6 @@
 
   .twofourzero {
     text-align: left;
-    text-decoration: underline;
     color: black;
     text-shadow: 1px 1px 0px red;
     font-family: "Chakra Petch", sans-serif;
@@ -163,7 +162,6 @@
 
   .threezeroone {
     text-align: left;
-    text-decoration: underline;
     color: black;
     text-shadow: 1px 1px 0px red;
     font-family: "Chakra Petch", sans-serif;
@@ -175,7 +173,6 @@
 
   .threefourfive {
     text-align: left;
-    text-decoration: underline;
     color: black;
     text-shadow: 1px 1px 0px red;
     font-family: "Chakra Petch", sans-serif;
@@ -202,20 +199,6 @@
     grid-column: 3/ span 12;
     background-color: red;
     box-shadow: 10px 10px 10px #999;
-  }
-  
-  .bi {
-    width: 75px;
-    float: right;
-    padding: 10px 10px 5px 10px;
-    font-size: 75px;
-    color: white;
-    transition: color 1.0s; 
-    text-shadow: 2px 2px 2px #000;
-  }
-  
-  .bi:hover {
-    color: black;
   }
   
   .gobirds {
