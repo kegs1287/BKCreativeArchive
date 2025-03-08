@@ -117,11 +117,12 @@
   
   .bi {
     float: right;
-    padding: 10px 10px 5px 10px;
-    font-size: 75px;
+    padding: 15px 15px 5px 10px;
+    font-size: 60px;
     color: white;
     transition: color 1.0s; 
     text-shadow: 2px 2px 2px plum;
+    text-decoration: none;
   }
   
   .bi:hover {
@@ -131,8 +132,8 @@
   
 .fa {
     float: right;
-    padding: 10px 10px 5px 10px;
-    font-size: 75px;
+    padding: 15px 10px 5px 10px;
+    font-size: 60px;
     color: white;
     transition: color 1.0s; 
     text-shadow: 2px 2px 2px plum;
@@ -235,4 +236,9 @@ iframe {
   height: 180px;
   margin-top: 30px;
   padding: 0px;
+}
+
+.resize {
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
 }
