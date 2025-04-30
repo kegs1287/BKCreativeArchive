@@ -1,18 +1,503 @@
 #wrapper {
+  margin: 1em auto;
+  width: 470px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 556px 100px;
+  box-shadow: 13px 13px 10px rgb(84, 84, 252);
+}
+
+body { 
+  max-width: 470px; 
+  margin: 0rem auto; 
+  display: grid;
+}
+
+header {
+  grid-column: 2/ span 5;
+  height: 100px;
+  background-color: skyblue;
+}
+
+h1 {
+  font-size: 15px;
+  padding: 37px;
+  margin: 0;
+  color: black;
+  font-style: italic;
+  text-shadow: 2px 2px 2px darkblue;
+  font-family: "Audiowide", sans-serif;
+}
+
+nav {
+  width: 100px;
+  grid-column: 1/ span 1;
+  grid-row: 1;
+  background-color: darkblue;
+  grid-row-end: 4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 756px;
+}
+
+nav ul {
+  background-color: white;
+  width: 36px;
+  margin: 15px 15px 35px 15px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 6px;
+}
+
+nav li {   
+  width: 60px;
+  background-color: skyblue;
+  display: block;
+  margin: 20px 0px 20px -13px;
+  text-align: center;
+  box-shadow: 10px 10px 10px darkblue;
+  transition: background-color 1.0s, color 1.0s; 
+  font-family: "Audiowide", sans-serif; 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+nav li:hover {
+  background-color:darkblue;
+}
+
+nav li a:hover {
+  color: skyblue;
+}
+
+.ivopanel {
+  width: 76px;
+  padding: 0px 0px 0px 0px;
+  border-top: 2px solid skyblue;
+  margin: 5px 25px 0px 12px;
+  float: none;
+}
+
+.members {
+  font-size: 8px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 17px 0px 17px;
+  margin: 0px;
+  text-shadow: 1px 1px 0px skyblue;
+  font-family: "Audiowide", sans-serif;
+}
+
+.dod {
+      font-size: 8px;
+      color: white;
+      text-align: center;
+      padding: 20px 17px 0px 17px;
+      margin: 0px;
+      text-shadow: 1px 1px 0px skyblue;
+      font-family: "Audiowide", sans-serif;
+}
+
+.line1 {
+  height: 2px;
+  background-color: skyblue;
+  margin: 0px 14px;
+}
+
+.line2 {
+  height: 2px;
+  background-color: white;
+  margin: 5px 30px 0px 30px;
+}
+
+.line3 {
+  height: 2px;
+  background-color: skyblue;
+  margin: 5px 45px 0px 45px;
+}
+
+.line4 {
+  height: 2px;
+  background-color: white;
+  margin: 0px 30px 0px 30px;
+}
+
+.line5 {
+  height: 2px;
+  background-color: skyblue;
+  margin: 0px 45px 5px 45px;
+}
+
+
+footer {
+  grid-column: 2/ span 5;
+  background-color: skyblue;
+  box-shadow: 13px 13px 10px rgb(84, 84, 252);
+}
+
+.bi {
+  float: right;
+  padding: 10px 25px 5px 10px;
+  font-size: 14px;
+  color: black;
+  transition: color 1.0s; 
+  text-shadow: 2px 2px 2px darkblue;
+  text-decoration: none;
+}
+
+.bi:hover {
+  color: darkblue;
+  text-shadow: 2px 2px 2px white;
+}
+
+.fa {
+  float: right;
+  padding: 10px 10px 5px 10px;
+  font-size: 14px;
+  color: black;
+  transition: color 1.0s; 
+  text-shadow: 2px 2px 2px darkblue;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: darkblue;
+  text-shadow: 2px 2px 2px white;
+}  
+
+.discog {
+  grid-column: 2 / span 4;
+ }
+
+img {
+  float: left;
+  width: 98px;
+}
+
+.videos { 
+margin-top: 250px;
+padding-right: 40px;
+text-align: center;
+text-decoration: underline;
+text-shadow: 2px 2px 0px skyblue;
+}
+
+#myCarousel {
+  padding-top: 10px;
+  height: 310px;
+}
+
+#myCarousel2 {
+  height: 310px;
+  padding: 10px 35px 0px 35px;
+}
+
+.f-carousel {
+  --f-button-width: 15px;
+  --f-button-height: 25px;
+  --f-button-color: darkblue;  
+}
+
+.picsvids {
+  grid-column: 6 / span 2;
+ }
+
+.picturesvideos {
+ display: grid;
+ margin: 10px 10px 0px 10px;
+ text-align: center;
+text-decoration: underline;
+text-shadow: 2px 2px 0px skyblue;
+font-family: "Audiowide", sans-serif;
+font-size: 11px;
+}
+
+.resize {
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+iframe {
+  border: 0; 
+  width: 96px; 
+  height: 456px; 
+  padding-bottom: 33px;
+
+}
+
+
+@media all and (min-width: 36rem){
+
+  #wrapper {
+      margin: 1em auto;
+      width: 700px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 100px 645px 100px;
+      box-shadow: 13px 13px 10px rgb(84, 84, 252);
+    }
+
+    body { 
+      max-width: 700px; 
+      margin: 0rem auto; 
+      display: grid;
+    }
+
+    header {
+      grid-column: 2/ span 5;
+      height: 100px;
+      background-color: skyblue;
+    }
+    
+    h1 {
+      font-size: 21px;
+      padding: 30px;
+      margin: 0;
+      color: black;
+      font-style: italic;
+      text-shadow: 2px 2px 2px darkblue;
+      font-family: "Audiowide", sans-serif;
+    }
+    
+    nav {
+      width: 117px;
+      grid-column: 1/ span 1;
+      grid-row: 1;
+      background-color: darkblue;
+      grid-row-end: 4;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      height: 845px;
+    }
+    
+    nav ul {
+      background-color: white;
+      width: 48px;
+      margin: 15px 150px 35px 15px;
+      padding: 20px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      font-size: 8px;
+    }
+    
+    nav li {   
+      width: 71px;
+      background-color: skyblue;
+      display: block;
+      margin: 20px 0px 20px -13px;
+      text-align: center;
+      box-shadow: 10px 10px 10px darkblue;
+      transition: background-color 1.0s, color 1.0s; 
+      font-family: "Audiowide", sans-serif; 
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    
+    nav li a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+    }
+    
+    nav li:hover {
+      background-color:darkblue;
+    }
+    
+    nav li a:hover {
+      color: skyblue;
+    }
+    
+    .ivopanel {
+      width: 92px;
+      padding: 0px 0px 0px 0px;
+      border-top: 2px solid skyblue;
+      margin: 5px 25px 0px 12px;
+      float: none;
+    }
+  
+    .members {
+      font-size: 12px;
+      color: white;
+      text-align: center;
+      padding: 10px 17px 0px 17px;
+      margin: 0px;
+      text-shadow: 1px 1px 0px skyblue;
+      font-family: "Audiowide", sans-serif;
+    }
+  
+    .dod {
+          font-size: 12px;
+          color: white;
+          text-align: center;
+          padding: 20px 17px 0px 17px;
+          margin: 0px;
+          text-shadow: 1px 1px 0px skyblue;
+          font-family: "Audiowide", sans-serif;
+    }
+    
+    .line1 {
+      height: 2px;
+      background-color: skyblue;
+      margin: 0px 14px;
+    }
+    
+    .line2 {
+      height: 2px;
+      background-color: white;
+      margin: 5px 30px 0px 30px;
+    }
+    
+    .line3 {
+      height: 2px;
+      background-color: skyblue;
+      margin: 5px 50px 16px 50px;
+    }
+    
+    .line4 {
+      height: 2px;
+      background-color: white;
+      margin: 0px 30px 0px 30px;
+    }
+    
+    .line5 {
+      height: 2px;
+      background-color: skyblue;
+      margin: 0px 50px 5px 50px;
+    }
+  
+    
+    footer {
+      grid-column: 2/ span 5;
+      background-color: skyblue;
+      box-shadow: 13px 13px 10px rgb(84, 84, 252);
+    }
+    
+    .bi {
+      float: right;
+      padding: 10px 25px 5px 10px;
+      font-size: 30px;
+      color: black;
+      transition: color 1.0s; 
+      text-shadow: 2px 2px 2px darkblue;
+      text-decoration: none;
+    }
+    
+    .bi:hover {
+      color: darkblue;
+      text-shadow: 2px 2px 2px white;
+    }
+    
+  .fa {
+      float: right;
+      padding: 10px 10px 5px 10px;
+      font-size: 30px;
+      color: black;
+      transition: color 1.0s; 
+      text-shadow: 2px 2px 2px darkblue;
+      text-decoration: none;
+  }
+  
+  .fa:hover {
+      color: darkblue;
+      text-shadow: 2px 2px 2px white;
+  }  
+    
+  .discog {
+      grid-column: 2 / span 4;
+     }
+  
+  img {
+      float: left;
+      width: 150px;
+   }
+  
+   .videos { 
+    margin-top: 250px;
+    padding-right: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0px skyblue;
+   }
+  
+    #myCarousel {
+      padding-top: 10px;
+      height: 310px;
+    }
+  
+    #myCarousel2 {
+      height: 205px;
+      padding: 0px 15px 0px 0px;
+    }
+  
+    .f-carousel {
+      --f-button-width: 15px;
+      --f-button-height: 25px;
+      --f-button-color: darkblue;  
+    }
+  
+    .picsvids {
+      grid-column: 6 / span 2;
+     }
+  
+  .picturesvideos {
+     display: grid;
+     margin: 10px 10px 0px 0px;
+     text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0px skyblue;
+    font-family: "Audiowide", sans-serif;
+    font-size: 19px;
+    }
+  
+    .resize {
+      font-size: 20px;
+      font-family: "Audiowide", sans-serif;
+   }
+  
+   iframe {
+    border: 0; 
+    width: 147px; 
+    height: 492px; 
+    padding-bottom: 33px;
+  
+  }
+  }
+  
+
+@media all and (min-width: 60rem){
+
+#wrapper {
     margin: 1em auto;
-    width: 1200px;
+    width: 1280px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 750px 100px;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 100px 776px 100px;
     box-shadow: 13px 13px 10px rgb(84, 84, 252);
+  }
+
+  body { 
+    max-width: 1280px; 
+    margin: 0rem auto; 
+    display: grid;
   }
   
   header {
     grid-column: 3/ span 12;
+    height: 100px;
     background-color: skyblue;
   }
   
   h1 {
+    font-size: 25px;
     padding: 30px;
     margin: 0;
     color: black;
@@ -22,27 +507,31 @@
   }
   
   nav {
+    width: 183px;
     grid-column: 1/ span 2;
     grid-row: 1;
     background-color: darkblue;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    height: 976px;
   }
   
   nav ul {
     background-color: white;
-    width: 130px;
-    margin: 15px 150px 0px 15px;
+    width: 110px;
+    margin: 15px 150px 35px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 13px;
   }
   
   nav li {   
+    width: 125px;
     background-color: skyblue;
     display: block;
-    margin: 20px 0px 20px 0px;
+    margin: 20px -10px 20px -10px;
     text-align: center;
     box-shadow: 10px 10px 10px darkblue;
     transition: background-color 1.0s, color 1.0s; 
@@ -67,7 +556,7 @@
   }
   
   .ivopanel {
-    width: 166px;
+    width: 150px;
     padding: 5px 0px 0px 0px;
     border-top: 2px solid skyblue;
     margin: 5px 25px 5px 17px;
@@ -121,7 +610,7 @@
   .line5 {
     height: 2px;
     background-color: skyblue;
-    margin: 25px 75px 5px 75px;
+    margin: 0px 75px 5px 75px;
   }
 
   
@@ -134,7 +623,7 @@
   .bi {
     float: right;
     padding: 10px 25px 5px 10px;
-    font-size: 75px;
+    font-size: 60px;
     color: black;
     transition: color 1.0s; 
     text-shadow: 2px 2px 2px darkblue;
@@ -149,7 +638,7 @@
 .fa {
     float: right;
     padding: 10px 10px 5px 10px;
-    font-size: 75px;
+    font-size: 60px;
     color: black;
     transition: color 1.0s; 
     text-shadow: 2px 2px 2px darkblue;
@@ -162,12 +651,12 @@
 }  
   
 .discog {
-    grid-column: 3 / span 7;
+    grid-column: 3 / span 9;
    }
 
 img {
     float: left;
-    width: 232px;
+    width: 274px;
  }
 
  .videos { 
@@ -180,7 +669,6 @@ img {
 
   #myCarousel {
     padding-top: 10px;
-    padding-left: 32px;
     height: 310px;
   }
 
@@ -196,7 +684,7 @@ img {
   }
 
   .picsvids {
-    grid-column: 10 / span 3;
+    grid-column: 12 / span 3;
    }
 
 .picturesvideos {
@@ -206,9 +694,18 @@ img {
   text-decoration: underline;
   text-shadow: 2px 2px 0px skyblue;
   font-family: "Audiowide", sans-serif;
+  font-size: 30px;
   }
 
   .resize {
     font-size: 20px;
     font-family: "Audiowide", sans-serif;
  }
+
+ iframe {
+  border: 0; 
+  width: 271px; 
+  height: 500px; 
+  padding-bottom: 33px;
+}
+}

@@ -1,14 +1,176 @@
 #wrapper {
+  margin: 1em auto;
+  width: 470px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 477px 100px;
+  box-shadow: 13px 13px 10px orange;
+}
+
+header {
+  grid-column: 2/ span 5;
+  height: 100px;
+  background-color: blue;
+}
+
+h1 {
+  padding: 37px;
+  margin: 0;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px orange;
+  font-family: "Audiowide", sans-serif;
+  font-size: 15px;
+}
+
+h3 {
+  padding: 30px;
+  margin: 0;
+  color: black;
+  font-style: italic;
+  text-shadow: 2px 2px 2px orange;
+  font-family: "Audiowide", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  grid-column: 1/ span 1;
+  grid-row: 1;
+  background-color: orange;
+  grid-row-end: 4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100px;
+}
+
+nav ul {
+  background-color: white;
+  margin: 15px 15px 35px 15px;
+  width: 36px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 6px;
+}
+
+nav li {   
+  width: 60px;
+  background-color: blue;
+  display: block;
+  margin: 20px 0px 20px -13px;
+  text-align: center;
+  box-shadow: 10px 10px 10px #999;
+  transition: background-color 1.0s, color 1.0s; 
+  font-family: "Audiowide", sans-serif; 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav li a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+nav li:hover {
+  background-color:orange;
+}
+
+nav li a:hover {
+  color: blue;
+}
+
+.uofi {
+  width: 76px;
+  padding: 0px 0px 0px 0px;
+  border-top: 2px solid blue;
+  margin: 5px 25px 0px 12px;
+}
+
+
+.line1 {
+  height: 2px;
+  background-color: blue;
+  margin: 0px 14px;
+}
+
+.line2 {
+  height: 2px;
+  background-color: blue;
+  margin: 5px 30px 0px 30px;
+}
+
+.line3 {
+  height: 2px;
+  background-color: blue;
+  margin: 5px 45px 0px 45px;
+}
+
+.line4 {
+  height: 2px;
+  background-color: blue;
+  margin: 0px 30px 0px 30px;
+}
+
+.line5 {
+  height: 2px;
+  background-color: blue;
+  margin: 0px 45px 5px 45px;
+}
+
+main {
+  grid-column: 2/ span 5;
+}
+
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  color: blue;
+  text-shadow: 2px 2px 2px orange;
+  font-family: "Audiowide", sans-serif; 
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+
+footer {
+  grid-column: 2/ span 5;
+  background-color: blue;
+  box-shadow: 13px 13px 10px orange;
+}
+
+.illini {
+  padding: 20px 30px;
+  margin: 0;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px orange;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+.Kingfisher   {
+  width: 40%;
+  float: right;
+  padding-left: 16px;
+}
+
+
+@media all and (min-width: 36rem){
+  #wrapper {
     margin: 1em auto;
-    width: 1200px;
+    width: 700px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 525px 100px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 477px 100px;
     box-shadow: 13px 13px 10px orange;
   }
   
   header {
-    grid-column: 3/ span 12;
+    grid-column: 2/ span 5;
     height: 100px;
     background-color: blue;
   }
@@ -20,7 +182,7 @@
     font-style: italic;
     text-shadow: 2px 2px 2px orange;
     font-family: "Audiowide", sans-serif;
-    font-size: 26px;
+    font-size: 21px;
   }
 
   h3 {
@@ -30,11 +192,12 @@
     font-style: italic;
     text-shadow: 2px 2px 2px orange;
     font-family: "Audiowide", sans-serif;
-    font-size: 26px;
+    font-size: 21px;
   }
   
   nav {
-    grid-column: 1/ span 2;
+    width: 117px;
+    grid-column: 1/ span 1;
     grid-row: 1;
     background-color: orange;
     grid-row-end: 4;
@@ -44,16 +207,19 @@
   
   nav ul {
     background-color: white;
-    margin: 15px;
+    margin: 15px 15px 35px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 8px;
+    width: 48px;
   }
   
   nav li {   
+    width: 71px;
     background-color: blue;
     display: block;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px -13px;
     text-align: center;
     box-shadow: 10px 10px 10px #999;
     transition: background-color 1.0s, color 1.0s; 
@@ -78,10 +244,179 @@
   }
   
   .uofi {
-    width: 155px;
+    width: 92px;
     padding: 5px 0px 0px 0px;
     border-top: 2px solid blue;
     margin: 5px 25px 0px 17px;
+  }
+
+  
+  .line1 {
+    height: 2px;
+    background-color: blue;
+    margin: 0px 14px;
+  }
+  
+  .line2 {
+    height: 2px;
+    background-color: blue;
+    margin: 5px 30px 0px 30px;
+  }
+  
+  .line3 {
+    height: 2px;
+    background-color: blue;
+    margin: 5px 50px 0px 50px;
+  }
+  
+  .line4 {
+    height: 2px;
+    background-color: blue;
+    margin: 0px 30px 0px 30px;
+  }
+  
+  .line5 {
+    height: 2px;
+    background-color: blue;
+    margin: 0px 50px 5px 50px;
+  }
+  
+  main {
+    grid-column: 2/ span 5;
+  }
+  
+  h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+    text-shadow: 2px 2px 2px orange;
+    font-family: "Audiowide", sans-serif; 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+
+  footer {
+    grid-column: 2/ span 5;
+    background-color: blue;
+    box-shadow: 10px 10px 10px #999;
+  }
+  
+  .illini {
+    padding: 20px 30px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px orange;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .Kingfisher   {
+    width: 40%;
+    float: right;
+    padding-left: 16px;
+  }
+}
+
+@media all and (min-width: 60rem){
+
+#wrapper {
+    margin: 1em auto;
+    width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 100px 525px 100px;
+    box-shadow: 13px 13px 10px orange;
+  }
+
+  body { 
+    max-width: 1280px; margin: 0rem auto; 
+    display: grid;
+    background-color: whitesmoke;
+  }
+  
+  header {
+    grid-column: 3/ span 12;
+    height: 100px;
+    background-color: blue;
+  }
+  
+  h1 {
+    padding: 30px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px orange;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+  }
+
+  h3 {
+    padding: 30px;
+    margin: 0;
+    color: black;
+    font-style: italic;
+    text-shadow: 2px 2px 2px orange;
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+  }
+  
+  nav {
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    background-color: orange;
+    grid-row-end: 4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 183px;
+  }
+  
+  nav ul {
+    background-color: white;
+    margin: 15px 15px 35px 15px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 110px;
+    font-size: 13px;
+  }
+  
+  nav li {   
+    background-color: blue;
+    display: block;
+    margin: 20px -10px 20px -10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #999;
+    transition: background-color 1.0s, color 1.0s; 
+    font-family: "Audiowide", sans-serif; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 125px;
+  }
+  
+  nav li a {
+    color:  whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+  }
+  
+  nav li:hover {
+    background-color:orange;
+  }
+  
+  nav li a:hover {
+    color: blue;
+  }
+  
+  .uofi {
+    width: 150px;
+    padding: 0px 0px 0px 0px;
+    border-top: 2px solid blue;
+    margin: 5px 25px 0px 12px;
   }
 
   
@@ -112,7 +447,7 @@
   .line5 {
     height: 2px;
     background-color: blue;
-    margin: 17px 75px 5px 75px;
+    margin: 0px 75px 5px 75px;
   }
   
   main {
@@ -126,14 +461,16 @@
     text-shadow: 2px 2px 2px orange;
     font-family: "Audiowide", sans-serif; 
     font-size: 30px;
-   padding-left: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
 
 
   footer {
     grid-column: 3/ span 12;
     background-color: blue;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 13px 13px 10px orange;
   }
   
   .illini {
@@ -152,4 +489,4 @@
     float: right;
     padding-left: 16px;
   }
-  
+}
