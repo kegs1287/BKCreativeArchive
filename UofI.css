@@ -180,7 +180,7 @@ footer {
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 8px;
+    font-size: 7px;
     width: 48px;
   }
   
@@ -202,7 +202,7 @@ footer {
     color: #ffffff;
     text-decoration: none;
     display: block;
-    padding: 15px 0px;
+    padding: 17px 0px;
   }
   
   nav li:hover {
@@ -284,13 +284,13 @@ footer {
   }
   
   h1 {
-    padding: 30px;
+    padding: 30px 16px;
     margin: 0;
     color: white;
     font-style: italic;
     text-shadow: 2px 2px 2px orange;
     font-family: "Audiowide", sans-serif;
-    font-size: 25px;
+    font-size: 28px;
   }
 
   h3 {
@@ -333,14 +333,14 @@ footer {
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 125px;
+    width: 126px;
   }
   
   nav li a {
     color:  whitesmoke;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 15px 0px;
   }
   
   nav li:hover {
@@ -353,7 +353,7 @@ footer {
   
   .uofi {
     width: 110px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     margin: -32px 0px 4px 37px;
   }
   
@@ -381,7 +381,7 @@ footer {
   }
   
   .illini {
-    padding: 20px 30px;
+    padding: 25px 30px;
     margin: 0;
     color: white;
     font-style: italic;

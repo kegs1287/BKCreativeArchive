@@ -247,7 +247,7 @@ iframe {
       padding: 20px;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      font-size: 8px;
+      font-size: 7px;
     }
     
     nav li {   
@@ -268,7 +268,7 @@ iframe {
       color: white;
       text-decoration: none;
       display: block;
-      padding: 15px 0px;
+      padding: 17px 0px;
     }
     
     nav li:hover {
@@ -420,7 +420,7 @@ iframe {
   }
   
   h1 {
-    font-size: 25px;
+    font-size: 37px;
     padding: 30px;
     margin: 0;
     color: white;
@@ -467,7 +467,7 @@ iframe {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 15px 0px;
   }
   
   nav li:hover {
@@ -507,7 +507,7 @@ iframe {
   
   footer {
     grid-column: 3/ span 12;
-    background-color: skyblue;
+    background-color: blue;
     box-shadow: 13px 13px 10px blue(84, 84, 252);
   }
   
@@ -515,30 +515,30 @@ iframe {
     float: right;
     padding: 10px 25px 5px 10px;
     font-size: 60px;
-    color: black;
+    color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px black;
     text-decoration: none;
   }
   
   .bi:hover {
-    color: blue;
-    text-shadow: 2px 2px 2px pink;
+    color: black;
+    text-shadow: 2px 2px 2px skyblue;
   }
   
 .fa {
     float: right;
     padding: 10px 10px 5px 10px;
     font-size: 60px;
-    color: black;
+    color: white;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px black;
     text-decoration: none;
 }
 
 .fa:hover {
-    color: blue;
-    text-shadow: 2px 2px 2px pink ;
+    color: black;
+    text-shadow: 2px 2px 2px skyblue ;
 }  
   
 .discog {

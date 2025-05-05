@@ -206,13 +206,13 @@ li {
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 15px;
+    font-size: 13px;
     height: 604px;
   }
   
   nav li {
     height: 47px;
-    width: 120px;   
+    width: 122px;   
     display: block;
     margin: 21px 0px 20px -13px;
     text-align: center;
@@ -227,7 +227,7 @@ li {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 13px;
+    padding: 12px 0px;
   }
   
   nav li:hover {

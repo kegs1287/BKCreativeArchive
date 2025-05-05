@@ -184,7 +184,7 @@ body {
       padding: 20px;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      font-size: 8px;
+      font-size: 7px;
     }
     
     nav li {  
@@ -205,7 +205,7 @@ body {
       color: white;
       text-decoration: none;
       display: block;
-      padding: 15px 0px;
+      padding: 17px 0px;
     }
     
     nav li:hover {
@@ -319,7 +319,7 @@ body {
     }
     
     nav li { 
-      width: 125px;  
+      width: 127px;  
       background-color: goldenrod;
       display: block;
       margin: 20px -10px 20px -10px;
@@ -335,7 +335,7 @@ body {
       color: white;
       text-decoration: none;
       display: block;
-      padding: 15px;
+      padding: 15px 0px;
     }
     
     nav li:hover {
@@ -360,11 +360,11 @@ body {
         color: white;
         text-shadow: 2px 2px 2px black;
         font-family: "Audiowide", sans-serif; 
-        font-size: 30px;
-        margin-top: 35px;
+        font-size: 38px;
+        margin-top: 25px;
         margin-bottom: 0px;
         font-style: italic;
-        margin-right: 550px;
+        margin-right: 570px;
       }
 
       h2 {
