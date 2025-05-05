@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100px 477px 100px;
-  box-shadow: 13px 13px 10px orange;
+  box-shadow: 13px 13px 10px orangered;
 }
 
 header {
@@ -59,7 +59,7 @@ nav li {
   display: block;
   margin: 20px 0px 20px -13px;
   text-align: center;
-  box-shadow: 10px 10px 10px #999;
+  box-shadow: 10px 10px 10px  orangered;
   transition: background-color 1.0s, color 1.0s; 
   font-family: "Audiowide", sans-serif; 
   border-top-left-radius: 10px;
@@ -70,7 +70,7 @@ nav li a {
   color: whitesmoke;
   text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 16px 0px;
 }
 
 nav li:hover {
@@ -84,39 +84,7 @@ nav li a:hover {
 .uofi {
   width: 76px;
   padding: 0px 0px 0px 0px;
-  border-top: 2px solid blue;
-  margin: 5px 25px 0px 12px;
-}
-
-
-.line1 {
-  height: 2px;
-  background-color: blue;
-  margin: 0px 14px;
-}
-
-.line2 {
-  height: 2px;
-  background-color: blue;
-  margin: 5px 30px 0px 30px;
-}
-
-.line3 {
-  height: 2px;
-  background-color: blue;
-  margin: 5px 45px 0px 45px;
-}
-
-.line4 {
-  height: 2px;
-  background-color: blue;
-  margin: 0px 30px 0px 30px;
-}
-
-.line5 {
-  height: 2px;
-  background-color: blue;
-  margin: 0px 45px 5px 45px;
+  margin: 0px 0px 0px 13px;
 }
 
 main {
@@ -132,13 +100,14 @@ h2 {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 0px;
+  margin-left: 20px;
 }
 
 
 footer {
   grid-column: 2/ span 5;
   background-color: blue;
-  box-shadow: 13px 13px 10px orange;
+  box-shadow: 13px 13px 10px orangered;
 }
 
 .illini {
@@ -166,7 +135,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px 477px 100px;
-    box-shadow: 13px 13px 10px orange;
+    box-shadow: 13px 13px 10px orangered;
   }
   
   header {
@@ -176,7 +145,7 @@ footer {
   }
   
   h1 {
-    padding: 30px;
+    padding: 24px;
     margin: 0;
     color: white;
     font-style: italic;
@@ -207,7 +176,7 @@ footer {
   
   nav ul {
     background-color: white;
-    margin: 15px 15px 35px 15px;
+    margin: 15px 15px 20px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -217,9 +186,10 @@ footer {
   
   nav li {   
     width: 71px;
+    height: 44px;
     background-color: blue;
     display: block;
-    margin: 20px 0px 20px -13px;
+    margin: 15px 0px 15px -13px;
     text-align: center;
     box-shadow: 10px 10px 10px #999;
     transition: background-color 1.0s, color 1.0s; 
@@ -232,7 +202,7 @@ footer {
     color: #ffffff;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 15px 0px;
   }
   
   nav li:hover {
@@ -245,40 +215,8 @@ footer {
   
   .uofi {
     width: 92px;
-    padding: 5px 0px 0px 0px;
-    border-top: 2px solid blue;
-    margin: 5px 25px 0px 17px;
-  }
-
-  
-  .line1 {
-    height: 2px;
-    background-color: blue;
-    margin: 0px 14px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: blue;
-    margin: 5px 30px 0px 30px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: blue;
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: blue;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: blue;
-    margin: 0px 50px 5px 50px;
+    padding: 0px 0px 0px 0px;
+    margin: 14px 0px 0px 15px;
   }
   
   main {
@@ -294,17 +232,18 @@ footer {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-left: 20px;
   }
 
 
   footer {
     grid-column: 2/ span 5;
     background-color: blue;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 10px 10px 10px orangered;
   }
   
   .illini {
-    padding: 20px 30px;
+    padding: 37px 30px;
     margin: 0;
     color: white;
     font-style: italic;
@@ -325,21 +264,21 @@ footer {
 
 #wrapper {
     margin: 1em auto;
-    width: 1280px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 100px 525px 100px;
-    box-shadow: 13px 13px 10px orange;
+    box-shadow: 13px 13px 10px orangered;
   }
 
   body { 
-    max-width: 1280px; margin: 0rem auto; 
+    max-width: 1200px; margin: 0rem auto; 
     display: grid;
     background-color: whitesmoke;
   }
   
   header {
-    grid-column: 3/ span 12;
+    grid-column: 2/ span 14;
     height: 100px;
     background-color: blue;
   }
@@ -365,7 +304,7 @@ footer {
   }
   
   nav {
-    grid-column: 1/ span 2;
+    grid-column: 1/ span 1;
     grid-row: 1;
     background-color: orange;
     grid-row-end: 4;
@@ -389,7 +328,7 @@ footer {
     display: block;
     margin: 20px -10px 20px -10px;
     text-align: center;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 10px 10px 10px orangered;
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -413,41 +352,9 @@ footer {
   }
   
   .uofi {
-    width: 150px;
+    width: 110px;
     padding: 0px 0px 0px 0px;
-    border-top: 2px solid blue;
-    margin: 5px 25px 0px 12px;
-  }
-
-  
-  .line1 {
-    height: 2px;
-    background-color: blue;
-    margin: 0px 18px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: blue;
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: blue;
-    margin: 5px 75px 0px 75px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: blue;
-    margin: 0px 50px 0px 50px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: blue;
-    margin: 0px 75px 5px 75px;
+    margin: -32px 0px 4px 37px;
   }
   
   main {
@@ -468,9 +375,9 @@ footer {
 
 
   footer {
-    grid-column: 3/ span 12;
+    grid-column: 2/ span 14;
     background-color: blue;
-    box-shadow: 13px 13px 10px orange;
+    box-shadow: 13px 13px 10px orangered;
   }
   
   .illini {

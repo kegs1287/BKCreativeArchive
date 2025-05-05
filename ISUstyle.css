@@ -1,10 +1,443 @@
+  #wrapper {
+      margin: 1em auto;
+      width: 470px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 100px 575px 100px;
+      box-shadow: 13px 13px 10px #999;
+      height: 775px;
+    }
+    
+    header {
+      grid-column: 2/ span 5;
+      background-color: red;
+    }
+    
+    h1 {
+      padding: 24px;
+      margin: 0;
+      color: white;
+      font-style: italic;
+      text-shadow: 2px 2px 2px #000;
+      font-family: "Audiowide", sans-serif;
+      font-size: 17px;
+    }
+    
+    nav {
+      grid-column: 1/ span 1;
+      grid-row: 1;
+      background-color: black;
+      grid-row-end: 4;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 100px;
+    }
+    
+    nav ul {
+      background-color: white;
+      width: 36px;
+      margin: 15px 15px 35px 15px;
+      padding: 20px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      font-size: 6px;
+    }
+    
+    nav li {  
+      width: 60px; 
+      background-color: red;
+      display: block;
+      margin: 20px 0px 20px -13px;
+      text-align: center;
+      box-shadow: 10px 10px 10px #999;
+      transition: background-color 1.0s, color 1.0s; 
+      font-family: "Audiowide", sans-serif; 
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    
+    nav li a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      padding: 6px;
+    }
+    
+    nav li:hover {
+      background-color:black;
+    }
+    
+    nav li a:hover {
+      color: red;
+    }
+    
+    .seal {
+      width: 76px;
+      padding: 100px 0px 0px 0px;
+      margin: 5px 25px 5px 12px;
+    }
+    
+    
+    main {
+      grid-column: 2/ span 5;
+    }
+    
+    .CTK240 {
+      text-align: left;
+      color: black;
+      font-size: 16px;
+      font-family: "Chakra Petch", sans-serif;
+      text-shadow: 1px 1px 0px red;
+      text-decoration: underline;
+      padding-left: 17px;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+  
+    .CTK301 {
+      text-align: left;
+      color: black;
+      padding-left: 17px;
+      font-size: 16px;
+      font-family: "Chakra Petch", sans-serif;
+      text-shadow: 1px 1px 0px red;
+      text-decoration: underline;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+  
+    .CTK345 {
+      text-align: left;
+      color: black;
+      padding-left: 17px;
+      font-size: 16px;
+      font-family: "Chakra Petch", sans-serif;
+      text-shadow: 1px 1px 0px red;
+      text-decoration: underline;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+  
+    .twofourzero {
+      text-align: left;
+      color: black;
+      text-shadow: 1px 1px 0px red;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 10px;
+      padding-left: 32px;
+      margin-top: 10px;
+    }
+  
+    .player {
+      width: 190px;
+      height: 30px;
+      padding: 0px 10px;
+    }
+  
+    .threezeroone {
+      text-align: left;
+      color: black;
+      text-shadow: 1px 1px 0px red;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      padding-left: 32px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .threefourfive {
+      text-align: left;
+      color: black;
+      text-shadow: 1px 1px 0px red;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      padding-left: 32px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-right: 20px;
+    }
+
+    div {   
+      height:575px;
+      width:200px;
+      font:16px/26px Chakra Petch, sans-serif;
+      overflow:auto
+    }
+
+    iframe {
+      border: 0; 
+      width: 200px; 
+      height: 373px;
+    }
+    
+    h3 {
+      font-size: 95%;
+      font-family: "Chakra Petch", sans-serif;
+      margin-top: 25px; 
+    }
+  
+    .Reggie   {
+      width: 40.5%;
+      height: 100%;
+      float: right;
+    }
+    
+    footer {
+      grid-column: 2/ span 5;
+      background-color: red;
+      box-shadow: 10px 10px 10px #999;
+    }
+    
+    .gobirds {
+      padding: 35px 30px;
+      margin: 0;
+      color: white;
+      font-style: italic;
+      text-shadow: 2px 2px 2px #000;
+      font-family: "Audiowide", sans-serif;
+      text-align: center;
+      font-size: 30px;
+    }
+    
+  
+   ul li .link {
+      color: black;
+      transition: color 1.0s;
+      font-family: "Audiowide", sans-serif; 
+      font-size: 18px;
+    }
+    
+   ul li .link:hover {
+      color: black; 
+      text-shadow: 2px 2px 2px red;
+    }
+    
+    
+
+@media all and (min-width: 36rem){
+
+  #wrapper {
+      margin: 1em auto;
+      width: 700px;
+      display: grid;
+      grid-template-columns: repeat(14, 1fr);
+      grid-template-rows: 100px 575px 100px;
+      box-shadow: 13px 13px 10px #999;
+    }
+    
+    header {
+      grid-column: 3/ span 12;
+      background-color: red;
+    }
+    
+    h1 {
+      padding: 37px 10px;
+      font-size: 19px;
+      color: white;
+      font-style: italic;
+      text-shadow: 2px 2px 2px #000;
+      font-family: "Audiowide", sans-serif;
+    }
+    
+    nav {
+      grid-column: 1/ span 2;
+      grid-row: 1;
+      background-color: black;
+      grid-row-end: 4;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    
+    nav ul {
+      background-color: white;
+      width: 44px;
+      margin: 15px 0px 15px 8px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      font-size: 8px;
+    }
+    
+    nav li {   
+      background-color: red;
+      display: block;
+      margin: 20px 0px 20px -16px;
+      text-align: center;
+      box-shadow: 10px 10px 10px #999;
+      transition: background-color 1.0s, color 1.0s; 
+      font-family: "Audiowide", sans-serif; 
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 71px;
+      height: 44px;
+    }
+    
+    nav li a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      padding: 7px;
+    }
+
+    nav li:hover {
+      background-color:black;
+    }
+    
+    nav li a:hover {
+      color: red;
+    }
+    
+    .seal {
+      width: 85px;
+      padding: 5px 0px 0px 0px;
+      margin: 70px 25px 5px 8px;
+    }
+    
+    
+    main {
+      grid-column: 3/ span 12;
+    }
+    
+    .CTK240 {
+      text-align: left;
+      color: black;
+      font-size: 20px;
+      font-family: "Chakra Petch", sans-serif;
+      text-shadow: 1px 1px 0px red;
+      text-decoration: underline;
+      padding-left: 17px;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+  
+    .CTK301 {
+      text-align: left;
+      color: black;
+      padding-left: 17px;
+      font-size: 20px;
+      font-family: "Chakra Petch", sans-serif;
+      text-shadow: 1px 1px 0px red;
+      text-decoration: underline;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+  
+    .CTK345 {
+      text-align: left;
+      color: black;
+      padding-left: 17px;
+      font-size: 20px;
+      font-family: "Chakra Petch", sans-serif;
+      text-shadow: 1px 1px 0px red;
+      text-decoration: underline;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+  
+    .twofourzero {
+      text-align: left;
+      color: black;
+      text-shadow: 1px 1px 0px red;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 18px;
+      padding-left: 32px;
+      margin-top: 10px;
+    }
+  
+    .player {
+      width: 190px;
+      height: 30px;
+      padding: 0px 53px;
+    }
+  
+    .threezeroone {
+      text-align: left;
+      color: black;
+      text-shadow: 1px 1px 0px red;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      padding-left: 32px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .threefourfive {
+      text-align: left;
+      color: black;
+      text-shadow: 1px 1px 0px red;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 16px;
+      padding-left: 32px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-right: 20px;
+    }
+    
+    h3 {
+      font-size: 95%;
+      font-family: "Chakra Petch", sans-serif;
+      margin-top: 25px; 
+    }
+  
+    .Reggie   {
+      width: 40.5%;
+      float: right;
+    }
+    
+    footer {
+      grid-column: 3/ span 12;
+      background-color: red;
+      box-shadow: 10px 10px 10px #999;
+    }
+    
+    .gobirds {
+      padding: 35px 30px;
+      margin: 0;
+      color: white;
+      font-style: italic;
+      text-shadow: 2px 2px 2px #000;
+      font-family: "Audiowide", sans-serif;
+      text-align: center;
+      font-size: 35px;
+    }
+    
+  
+   ul li .link {
+      color: black;
+      transition: color 1.0s;
+      font-family: "Audiowide", sans-serif; 
+      font-size: 18px;
+    }
+    
+   ul li .link:hover {
+      color: black; 
+      text-shadow: 2px 2px 2px red;
+    }
+
+  iframe {
+    border: 0; 
+    width: 330px; 
+    height: 373px;
+  }
+
+  div {   
+    height:575px;
+    width:357px;
+    font:16px/26px Chakra Petch, sans-serif;
+    overflow:auto
+  }
+  }  
+    
+
+@media all and (min-width: 60rem){
+
 #wrapper {
     margin: 1em auto;
     width: 1200px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 575px 100px;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 100px 609px 100px;
     box-shadow: 13px 13px 10px #999;
+    height: 720px;
   }
   
   header {
@@ -19,30 +452,35 @@
     font-style: italic;
     text-shadow: 2px 2px 2px #000;
     font-family: "Audiowide", sans-serif;
+    font-size: 25px;
   }
   
   nav {
     grid-column: 1/ span 2;
+    width: 181px;
     grid-row: 1;
     background-color: black;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    height: 809px;
   }
   
   nav ul {
     background-color: white;
-    width: 130px;
-    margin: 15px;
+    width: 110px;
+    margin: 15px 15px 35px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 13px;
   }
   
   nav li {   
+    width: 125px;
     background-color: red;
     display: block;
-    margin: 20px 0px 20px 0px;
+    margin: 20px -10px 20px -10px;
     text-align: center;
     box-shadow: 10px 10px 10px #999;
     transition: background-color 1.0s, color 1.0s; 
@@ -67,41 +505,9 @@
   }
   
   .seal {
-    width: 165px;
-    padding: 5px 0px 0px 0px;
-    border-top: 2px solid red;
-    margin: 5px 25px 5px 17px;
-  }
-  
-  
-  .line1 {
-    height: 2px;
-    background-color: red;
-    margin: 0px 18px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: white;
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: red;
-    margin: 5px 75px 0px 75px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: white;
-    margin: 0px 50px 0px 50px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: red;
-    margin: 30px 75px 5px 75px;
+    width: 111px;
+    padding: 9px 0px 0px 21px;
+    margin: -37px 25px 0px 12px;
   }
   
   main {
@@ -202,7 +608,7 @@
   
   .gobirds {
     padding: 20px 30px;
-    margin: 0;
+    margin: 18px;
     color: white;
     font-style: italic;
     text-shadow: 2px 2px 2px #000;
@@ -223,9 +629,19 @@
     color: black; 
     text-shadow: 2px 2px 2px red;
   }
-  
-.ivo {
-  padding: 0px 0px 0px 30px;
+
+iframe {
+  border: 0; 
+  width: 400px; 
+  height: 373px;
+  margin-left: 20px;
 }
-  
+
+div {   
+  height:607px;
+  width:604px;
+  font:16px/26px Chakra Petch, sans-serif;
+  overflow:auto
+}
+}  
   

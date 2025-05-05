@@ -4,11 +4,11 @@ body {
 
 #wrapper {
   margin: 1em auto;
-  width: 470px;
+  width: 450px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100px 477px 100px;
-  box-shadow: 13px 13px 10px green;
+  box-shadow: 13px 13px 10px rgb(110, 209, 110);
   background-color: white;
 }
 
@@ -19,8 +19,8 @@ header {
 }
 
 h1 {
-  padding: 37px;
-  font-size: 15px;
+  padding: 39px 22px;
+  font-size: 18px;
   margin: 0;
   color: white;
   font-style: italic;
@@ -49,12 +49,13 @@ nav ul {
 }
 
 nav li {
-  width: 60px;   
+  width: 60px;
+  height: 40px;   
   background-color: green;
   display: block;
   margin: 20px 0px 20px -13px;
   text-align: center;
-  box-shadow: 10px 10px 10px darkgreen;
+  box-shadow: 10px 10px 10px rgb(110, 209, 110);
   transition: background-color 1.0s, color 1.0s; 
   font-family: "Audiowide", sans-serif; 
   border-top-left-radius: 10px;
@@ -65,7 +66,7 @@ nav li a {
   color: white;
   text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 16px 0px;
 }
 
 nav li:hover {
@@ -77,9 +78,8 @@ nav li a:hover {
 }
 
 .ufo {
-  width: 76px;
+  width: 86px;
   padding: 0px 0px 0px 0px;
-  border-top: 2px solid green;
   margin: 5px 25px 0px 12px;
 }
 
@@ -89,36 +89,6 @@ nav li a:hover {
   padding: 0px 14px;
 }
 
-.line1 {
-  height: 2px;
-  background-color: green;
-  margin: 0px 14px;
-}
-
-.line2 {
-  height: 2px;
-  background-color: white;
-  margin: 5px 30px 0px 30px;
-}
-
-.line3 {
-  height: 2px;
-  background-color: green;
-  margin: 5px 45px 0px 45px;
-}
-
-.line4 {
-  height: 2px;
-  background-color: white;
-  margin: 0px 30px 0px 30px;
-}
-
-.line5 {
-  height: 2px;
-  background-color: green;
-  margin: 0px 45px 5px 45px;
-}
-
 main {
   grid-column: 2/ span 5;
 }
@@ -126,7 +96,7 @@ main {
 h2 {
   text-align: center;
   text-decoration: underline;
-  color: green;
+  color: black;
   text-shadow: 2px 2px 2px green;
   font-family: "Audiowide", sans-serif; 
   font-size: 20px;
@@ -153,27 +123,9 @@ h2 {
 footer {
   grid-column: 2/ span 5;
   background-color: green;
-  box-shadow: 13px 13px 10px green;
+  box-shadow: 13px 13px 10px rgb(110, 209, 110);
 }
 
-.contact {
-  padding: 42px;
-  margin: 0;
-  font-size: 16px;
-  font-style: italic;
-  text-shadow: 2px 2px 2px green;
-  font-family: "Audiowide", sans-serif;
-}
-
-h3 a {
-  color: white;
-  transition: color 1.0s;
-}
-
-h3 a:hover {
-  color: white; 
-  text-shadow: 2px 2px 2px darkgreen;
-}
 
 @media all and (min-width: 36rem){
   body {
@@ -186,7 +138,7 @@ h3 a:hover {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px 477px 100px;
-    box-shadow: 13px 13px 10px green;
+    box-shadow: 13px 13px 10px rgb(110, 209, 110);
   }
   
   header {
@@ -196,8 +148,8 @@ h3 a:hover {
   }
   
   h1 {
-    font-size: 21px;
-    padding: 30px;
+    font-size: 25px;
+    padding: 33px 25px;
     margin: 0;
     color: white;
     font-style: italic;
@@ -227,11 +179,12 @@ h3 a:hover {
   
   nav li {  
     width: 71px; 
+    height: 43px;
     background-color: green;
     display: block;
     margin: 20px 0px 20px -13px;
     text-align: center;
-    box-shadow: 10px 10px 10px darkgreen;
+    box-shadow: 10px 10px 10px rgb(110, 209, 110);
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -242,7 +195,7 @@ h3 a:hover {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 15px 0px;
   }
   
   nav li:hover {
@@ -254,48 +207,16 @@ h3 a:hover {
   }
   
   .ufo {
-    width: 92px;
+    width: 100px;
     padding: 0px 0px 0px 0px;
-    border-top: 2px solid rgb(70, 209, 20);
-    margin: 5px 25px 0px 12px;
+    margin: -23px 25px 0px 9px;
   }
   
   .player {
     width: 86px;
     height: 25px;
     padding: 0px 14px;
-  }
-  
-  .line1 {
-    height: 2px;
-    background-color: rgb(70, 209, 20);
-    margin: 0px 14px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: white;
-    margin: 5px 30px 0px 30px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: rgb(70, 209, 20);
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: white;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: rgb(70, 209, 20);
-    margin: 0px 50px 5px 50px;
-  }
-  
+  }  
   
   main {
     grid-column: 2/ span 5;
@@ -304,7 +225,7 @@ h3 a:hover {
   h2 {
     text-align: center;
     text-decoration: underline;
-    color: green;
+    color: black;
     text-shadow: 2px 2px 2px rgb(70, 209, 20);
     font-family: "Audiowide", sans-serif; 
     font-size: 20px;
@@ -334,33 +255,14 @@ h3 a:hover {
     box-shadow: 13px 13px 10px rgb(110, 209, 110);
   }
 
-  
-  .contact {
-    padding: 35px;
-    margin: 0;
-    font-size: 20px;
-    color: white;
-    font-style: italic;
-    text-shadow: 2px 2px 2px green;
-    font-family: "Audiowide", sans-serif;
-  }
-  
-  h3 a {
-    color: white;
-    transition: color 1.0s;
-  }
-  
-  h3 a:hover {
-    color: darkgreen; 
-    text-shadow: 2px 2px 2px white;
-  }
+
 }
 
 @media all and (min-width: 60rem){
 
   #wrapper {
     margin: 1em auto;
-    width: 1280px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 100px 525px 100px;
@@ -368,7 +270,7 @@ h3 a:hover {
   }
 
   body { 
-    max-width: 1280px; margin: 0rem auto; 
+    max-width: 1200px; margin: 0rem auto; 
     display: grid;
     background-color: white;
   }
@@ -380,8 +282,8 @@ h3 a:hover {
   }
   
   h1 {
-    font-size: 25px;
-    padding: 30px;
+    font-size: 40px;
+    padding: 25px;
     margin: 0;
     color: white;
     font-style: italic;
@@ -414,7 +316,7 @@ h3 a:hover {
     display: block;
     margin: 20px -10px 20px -10px;
     text-align: center;
-    box-shadow: 10px 10px 10px darkgreen;
+    box-shadow: 10px 10px 10px rgb(110, 209, 110);
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -437,46 +339,15 @@ h3 a:hover {
   } 
 
   .ufo {
-    width: 150px;
+    width: 137px;
     padding: 0px 0px 0px 0px;
-    border-top: 2px solid rgb(70, 209, 20);
-    margin: 5px 25px 0px 12px;
+    margin: -32px 21px 4px 24px;
   }
   
   .player {
     width: 145px;
     height: 25px;
     padding: 0px 14px;
-  }
-  
-  .line1 {
-    height: 2px;
-    background-color: rgb(70, 209, 20);
-    margin: 0px 18px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: white;
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: rgb(70, 209, 20);
-    margin: 5px 75px 0px 75px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: white;
-    margin: 0px 50px 0px 50px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: rgb(70, 209, 20);
-    margin: 0px 75px 5px 75px;
   }
   
   main {
@@ -486,7 +357,7 @@ h3 a:hover {
   h2 {
     text-align: center;
     text-decoration: underline;
-    color: green;
+    color: black;
     text-shadow: 2px 2px 2px rgb(70, 209, 20);
     font-family: "Audiowide", sans-serif; 
     font-size: 30px;
@@ -516,26 +387,6 @@ h3 a:hover {
     box-shadow: 13px 13px 10px rgb(110, 209, 110);
   }
   
-  
-  .contact {
-    padding: 35px;
-    margin: 0;
-    font-size: 25px;
-    color: white;
-    font-style: italic;
-    text-shadow: 2px 2px 2px green;
-    font-family: "Audiowide", sans-serif;
-  }
-  
-  h3 a {
-    color: white;
-    transition: color 1.0s;
-  }
-  
-  h3 a:hover {
-    color: darkgreen; 
-    text-shadow: 2px 2px 2px white;
-  }
 }
 
 

@@ -14,8 +14,8 @@ header {
 }
 
 h1 {
-  padding: 37px;
-  font-size: 15px;
+  padding: 30px;
+  font-size: 17px;
   margin: 0;
   color: white;
   font-style: italic;
@@ -37,8 +37,8 @@ nav {
 nav ul {
   background-color: white;
   width: 36px;
-  margin: 15px 15px 35px 15px;
-  padding: 20px;
+  margin: 15px 15px 0px 15px;
+  padding: 1px 20px 1px 20px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   font-size: 6px;
@@ -46,6 +46,7 @@ nav ul {
 
 nav li { 
   width: 60px;  
+  height: 40px;
   background-color: purple;
   display: block;
   margin: 20px 0px 20px -13px;
@@ -61,7 +62,7 @@ nav li a {
   color: #ffffff;
   text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 15px 0px;
 }
 
 nav li:hover {
@@ -73,41 +74,9 @@ nav li a:hover {
 }
 
 .headshot {
-  width: 76px;
-  padding: 0px 0px 0px 0px;
-  border-top: 2px solid purple;
-  margin: 5px 25px 0px 12px;
+  width: 74px;
+  margin: 5px 10px 0px 15px;
   float: none;
-}
-
-.line1 {
-  height: 2px;
-  background-color: purple;
-  margin: 0px 14px;
-}
-
-.line2 {
-  height: 2px;
-  background-color: white;
-  margin: 5px 30px 0px 30px;
-}
-
-.line3 {
-  height: 2px;
-  background-color: purple;
-  margin: 5px 45px 0px 45px;
-}
-
-.line4 {
-  height: 2px;
-  background-color: white;
-  margin: 0px 30px 0px 30px;
-}
-
-.line5 {
-  height: 2px;
-  background-color: purple;
-  margin: 0px 45px 5px 45px;
 }
 
 h3 {
@@ -123,8 +92,8 @@ footer {
 
 .bi {
   float: right;
-  padding: 15px 15px 5px 10px;
-  font-size: 14px;
+  padding: 35px 15px 5px 10px;
+  font-size: 25px;
   color: white;
   transition: color 1.0s; 
   text-shadow: 2px 2px 2px plum;
@@ -138,8 +107,8 @@ footer {
 
 .fa {
   float: right;
-  padding: 15px 10px 5px 10px;
-  font-size: 14px;
+  padding: 35px 10px 5px 10px;
+  font-size: 25px;
   color: white;
   transition: color 1.0s; 
   text-shadow: 2px 2px 2px plum;
@@ -148,27 +117,6 @@ footer {
 
 .fa:hover {
   color:  plum;
-  text-shadow: 2px 2px 2px white;
-}
-
-.contact {
-  padding: 42px;
-  margin: 0;
-  font-size: 16px;
-  color: white;
-  font-style: italic;
-  text-shadow: 2px 2px 2px  plum;
-  font-family: "Audiowide", sans-serif;
-  text-align: left;
-}
-
-h3 a {
-  color: white;
-  transition: color 1.0s;
-}
-
-h3 a:hover {
-  color: plum; 
   text-shadow: 2px 2px 2px white;
 }
 
@@ -197,10 +145,7 @@ h4 {
   text-shadow: 1px 1px 0px purple;
   font-family: "Audiowide", sans-serif;
   text-align: center;
-}
-
-iframe {
-padding-top: 30px;
+  font-size: 13px;
 }
 
 .catgoes {
@@ -228,7 +173,7 @@ font-family: "Chakra Petch", sans-serif;
 }
 
 p {
-padding: 5px 30px 0px 30px;
+padding: 0px 30px 0px 30px;
 text-align: center;
 font-size: 6px;
 color: purple;
@@ -240,8 +185,8 @@ margin: 0px;
 iframe {
 width: 60px;
 height: 100px;
-margin-top: 30px;
-padding: 0px;
+margin-top: 15px;
+margin-left: 12px;
 }
 
 .resize {
@@ -266,8 +211,8 @@ font-family: "Audiowide", sans-serif;
   }
   
   h1 {
-    font-size: 21px;
-    padding: 30px;
+    font-size: 26px;
+    padding: 17px;
     margin: 0;
     color: white;
     font-style: italic;
@@ -289,7 +234,7 @@ font-family: "Audiowide", sans-serif;
     background-color: white;
     width: 48px;
     margin: 15px 15px 15px 15px;
-    padding: 20px;
+    padding: 5px 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     font-size: 8px;
@@ -297,6 +242,7 @@ font-family: "Audiowide", sans-serif;
   
   nav li {   
     width: 71px;
+    height: 43px;
     background-color: purple;
     display: block;
     margin: 20px 0px 20px -13px;
@@ -312,7 +258,7 @@ font-family: "Audiowide", sans-serif;
     color: #ffffff;
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 15px 0px;
   }
   
   nav li:hover {
@@ -325,40 +271,10 @@ font-family: "Audiowide", sans-serif;
   
   .headshot {
     width: 92px;
+    height: 92px;
     padding: 0px 0px 0px 0px;
-    border-top: 2px solid purple;
-    margin: 5px 25px 0px 12px;
+    margin: -10px 25px 0px 12px;
     float: none;
-  }
-  
-  .line1 {
-    height: 2px;
-    background-color: purple;
-    margin: 0px 14px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: white;
-    margin: 5px 30px 0px 30px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: purple;
-    margin: 5px 50px 16px 50px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: white;
-    margin: 0px 30px 0px 30px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: purple;
-    margin: 0px 50px 5px 50px;
   }
  
   h3 {
@@ -374,7 +290,7 @@ font-family: "Audiowide", sans-serif;
   
   .bi {
     float: right;
-    padding: 15px 15px 5px 10px;
+    padding: 30px 15px 5px 10px;
     font-size: 30px;
     color: white;
     transition: color 1.0s; 
@@ -389,7 +305,7 @@ font-family: "Audiowide", sans-serif;
   
 .fa {
     float: right;
-    padding: 15px 10px 5px 10px;
+    padding: 30px 10px 5px 10px;
     font-size: 30px;
     color: white;
     transition: color 1.0s; 
@@ -401,27 +317,6 @@ font-family: "Audiowide", sans-serif;
     color:  plum;
     text-shadow: 2px 2px 2px white;
 }
-
-  .contact {
-    padding: 35px 0px 35px 25px;
-    margin: 0;
-    font-size: 25px;
-    color: white;
-    font-style: italic;
-    text-shadow: 2px 2px 2px  plum;
-    font-family: "Audiowide", sans-serif;
-    text-align: left;
-  }
-  
-  h3 a {
-    color: white;
-    transition: color 1.0s;
-  }
-  
-  h3 a:hover {
-    color: plum; 
-    text-shadow: 2px 2px 2px white;
-  }
   
 ul {
     margin: 5px;
@@ -434,7 +329,7 @@ ul {
 
 img {
     float: left;
-    width: 92px;
+    width: 93px;
     height: 140px;
 }
 
@@ -443,16 +338,13 @@ img {
   }
 
   h4 {
-    margin: 5px 0px 10px 0px;
+    margin: 15px 0px 10px 0px;
     text-decoration: underline;
     text-shadow: 1px 1px 0px purple;
     font-family: "Audiowide", sans-serif;
     text-align: center;
+    font-size: 17px;
   }
-
-iframe {
-  padding-top: 30px;
-}
 
 .catgoes {
   font-size: 8px;
@@ -491,8 +383,8 @@ p {
 iframe {
   width: 90px;
   height: 60px;
-  margin-top: 30px;
-  padding: 0px;
+  margin-top: 35px;
+  margin-left: 12px;
 }
 
 .resize {
@@ -501,8 +393,9 @@ iframe {
 }
 
 .live {
-  height: 20px;
-  width: 20px;
+  height: 80px;
+  width: 58px;
+  padding-top: 15px;
 }
 }
 
@@ -510,7 +403,7 @@ iframe {
 
 #wrapper {
     margin: 1em auto;
-    width: 1280px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 100px 875px 100px;
@@ -524,7 +417,7 @@ iframe {
   }
 
   body { 
-    max-width: 1280px; margin: 0rem auto; 
+    max-width: 1200px; margin: 0rem auto; 
     display: grid;
   }
   
@@ -551,7 +444,7 @@ iframe {
   nav ul {
     background-color: white;
     width: 110px;
-    margin: 15px 15px 35px 15px;
+    margin: 15px 15px 15px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -587,41 +480,11 @@ iframe {
   }
   
   .headshot {
-    width: 155px;
+    width: 160px;
     padding: 0px 0px 0px 0px;
-    border-top: 2px solid purple;
     margin: 5px 25px 5px 12px;
     float: none;
-  }
-  
-  .line1 {
-    height: 2px;
-    background-color: purple;
-    margin: 0px 18px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: white;
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: purple;
-    margin: 5px 75px 25px 75px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: white;
-    margin: 0px 50px 0px 50px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: purple;
-    margin: 25px 75px 5px 75px;
+    height: 155px;
   }
  
   h3 {
@@ -664,27 +527,6 @@ iframe {
     color:  plum;
     text-shadow: 2px 2px 2px white;
 }
-
-  .contact {
-    padding: 35px 0px 35px 25px;
-    margin: 0;
-    font-size: 25px;
-    color: white;
-    font-style: italic;
-    text-shadow: 2px 2px 2px  plum;
-    font-family: "Audiowide", sans-serif;
-    text-align: left;
-  }
-  
-  h3 a {
-    color: white;
-    transition: color 1.0s;
-  }
-  
-  h3 a:hover {
-    color: plum; 
-    text-shadow: 2px 2px 2px white;
-  }
   
 ul {
     margin: 5px;
@@ -692,13 +534,13 @@ ul {
   }
   
 .discog {
-    grid-column: 3 / span 10;
+    grid-column: 3 / span 9;
   }
 
 img {
     float: left;
-    width: 182px;
-    height: 220px;
+    width: 190px;
+    height: 175px;
 }
 
 .live {
@@ -707,8 +549,8 @@ img {
 }
 
 .picsvids {
-   grid-column: 13 / span 2;
-   margin: 25px 20px
+   grid-column: 12 / span 3;
+   margin: 3px 30px
   }
 
   h2 {
@@ -719,9 +561,6 @@ img {
     text-align: center;
   }
 
-iframe {
-  padding-top: 30px;
-}
 
 .catgoes {
   font-size: 12px;
@@ -760,8 +599,9 @@ p {
 iframe {
   width: 142px;
   height: 146px;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 0px;
+  margin-left: 25px;
 }
 
 .resize {

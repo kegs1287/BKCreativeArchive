@@ -2,9 +2,9 @@
   margin: 1em auto;
   width: 470px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 100px 556px 100px;
-  box-shadow: 13px 13px 10px rgb(84, 84, 252);
+  box-shadow: 13px 13px 10px darkcyan;
 }
 
 body { 
@@ -14,18 +14,18 @@ body {
 }
 
 header {
-  grid-column: 2/ span 5;
+  grid-column: 2/ span 6;
   height: 100px;
-  background-color: skyblue;
+  background-color: blue;
 }
 
 h1 {
-  font-size: 15px;
-  padding: 37px;
+  font-size: 19px;
+  padding: 23px;
   margin: 0;
-  color: black;
+  color: white;
   font-style: italic;
-  text-shadow: 2px 2px 2px darkblue;
+  text-shadow: 2px 2px 2px black;
   font-family: "Audiowide", sans-serif;
 }
 
@@ -33,7 +33,7 @@ nav {
   width: 100px;
   grid-column: 1/ span 1;
   grid-row: 1;
-  background-color: darkblue;
+  background-color: skyblue;
   grid-row-end: 4;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -52,7 +52,8 @@ nav ul {
 
 nav li {   
   width: 60px;
-  background-color: skyblue;
+  height: 41px;
+  background-color: blue;
   display: block;
   margin: 20px 0px 20px -13px;
   text-align: center;
@@ -64,25 +65,24 @@ nav li {
 }
 
 nav li a {
-  color: black;
+  color: white;
   text-decoration: none;
   display: block;
-  padding: 15px;
+  padding: 15px 0px;
 }
 
 nav li:hover {
-  background-color:darkblue;
+  background-color:skyblue;
 }
 
 nav li a:hover {
-  color: skyblue;
+  color: blue;
 }
 
 .ivopanel {
   width: 76px;
   padding: 0px 0px 0px 0px;
-  border-top: 2px solid skyblue;
-  margin: 5px 25px 0px 12px;
+  margin: -30px 25px 0px 12px;
   float: none;
 }
 
@@ -90,9 +90,9 @@ nav li a:hover {
   font-size: 8px;
   color: #ffffff;
   text-align: center;
-  padding: 10px 17px 0px 17px;
+  padding: 5px 17px 0px 17px;
   margin: 0px;
-  text-shadow: 1px 1px 0px skyblue;
+  text-shadow: 1px 1px 0px blue;
   font-family: "Audiowide", sans-serif;
 }
 
@@ -100,77 +100,46 @@ nav li a:hover {
       font-size: 8px;
       color: white;
       text-align: center;
-      padding: 20px 17px 0px 17px;
+      padding: 5px 17px 0px 17px;
       margin: 0px;
-      text-shadow: 1px 1px 0px skyblue;
+      text-shadow: 1px 1px 0px blue;
       font-family: "Audiowide", sans-serif;
 }
 
-.line1 {
-  height: 2px;
-  background-color: skyblue;
-  margin: 0px 14px;
-}
-
-.line2 {
-  height: 2px;
-  background-color: white;
-  margin: 5px 30px 0px 30px;
-}
-
-.line3 {
-  height: 2px;
-  background-color: skyblue;
-  margin: 5px 45px 0px 45px;
-}
-
-.line4 {
-  height: 2px;
-  background-color: white;
-  margin: 0px 30px 0px 30px;
-}
-
-.line5 {
-  height: 2px;
-  background-color: skyblue;
-  margin: 0px 45px 5px 45px;
-}
-
-
 footer {
-  grid-column: 2/ span 5;
-  background-color: skyblue;
-  box-shadow: 13px 13px 10px rgb(84, 84, 252);
+  grid-column: 2/ span 6;
+  background-color: blue;
+  box-shadow: 13px 13px 10px darkcyan;
 }
 
 .bi {
   float: right;
-  padding: 10px 25px 5px 10px;
-  font-size: 14px;
-  color: black;
+  padding: 30px 25px 5px 10px;
+  font-size: 24px;
+  color: white;
   transition: color 1.0s; 
-  text-shadow: 2px 2px 2px darkblue;
+  text-shadow: 2px 2px 2px black;
   text-decoration: none;
 }
 
 .bi:hover {
-  color: darkblue;
-  text-shadow: 2px 2px 2px white;
+  color: black;
+  text-shadow: 2px 2px 2px skyblue;
 }
 
 .fa {
   float: right;
-  padding: 10px 10px 5px 10px;
-  font-size: 14px;
-  color: black;
+  padding: 30px 10px 5px 10px;
+  font-size: 23px;
+  color: white;
   transition: color 1.0s; 
-  text-shadow: 2px 2px 2px darkblue;
+  text-shadow: 2px 2px 2px black;
   text-decoration: none;
 }
 
 .fa:hover {
-  color: darkblue;
-  text-shadow: 2px 2px 2px white;
+  color: black;
+  text-shadow: 2px 2px 2px skyblue;
 }  
 
 .discog {
@@ -179,31 +148,25 @@ footer {
 
 img {
   float: left;
-  width: 98px;
-}
-
-.videos { 
-margin-top: 250px;
-padding-right: 40px;
-text-align: center;
-text-decoration: underline;
-text-shadow: 2px 2px 0px skyblue;
+  width: 82px;
 }
 
 #myCarousel {
   padding-top: 10px;
-  height: 310px;
+  padding-left: 22px;
 }
 
 #myCarousel2 {
   height: 310px;
-  padding: 10px 35px 0px 35px;
+  width: 77px;
+  padding-top: 0px;
+  margin-left: 23px;
 }
 
 .f-carousel {
   --f-button-width: 15px;
   --f-button-height: 25px;
-  --f-button-color: darkblue;  
+  --f-button-color: darkcyan;  
 }
 
 .picsvids {
@@ -212,27 +175,26 @@ text-shadow: 2px 2px 0px skyblue;
 
 .picturesvideos {
  display: grid;
- margin: 10px 10px 0px 10px;
+ margin: 15px 10px 10px 10px;
  text-align: center;
 text-decoration: underline;
 text-shadow: 2px 2px 0px skyblue;
 font-family: "Audiowide", sans-serif;
-font-size: 11px;
+font-size: 14px;
 }
 
 .resize {
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Audiowide", sans-serif;
 }
 
 iframe {
   border: 0; 
-  width: 96px; 
+  width: 79px; 
   height: 456px; 
   padding-bottom: 33px;
 
 }
-
 
 @media all and (min-width: 36rem){
 
@@ -240,9 +202,9 @@ iframe {
       margin: 1em auto;
       width: 700px;
       display: grid;
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(7, 1fr);
       grid-template-rows: 100px 645px 100px;
-      box-shadow: 13px 13px 10px rgb(84, 84, 252);
+      box-shadow: 13px 13px 10px darkcyan;
     }
 
     body { 
@@ -252,18 +214,18 @@ iframe {
     }
 
     header {
-      grid-column: 2/ span 5;
+      grid-column: 2/ span 6;
       height: 100px;
-      background-color: skyblue;
+      background-color: blue;
     }
     
     h1 {
       font-size: 21px;
       padding: 30px;
       margin: 0;
-      color: black;
+      color: white;
       font-style: italic;
-      text-shadow: 2px 2px 2px darkblue;
+      text-shadow: 2px 2px 2px black;
       font-family: "Audiowide", sans-serif;
     }
     
@@ -271,7 +233,7 @@ iframe {
       width: 117px;
       grid-column: 1/ span 1;
       grid-row: 1;
-      background-color: darkblue;
+      background-color: skyblue;
       grid-row-end: 4;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
@@ -290,125 +252,94 @@ iframe {
     
     nav li {   
       width: 71px;
-      background-color: skyblue;
+      background-color: blue;
       display: block;
       margin: 20px 0px 20px -13px;
       text-align: center;
-      box-shadow: 10px 10px 10px darkblue;
+      box-shadow: 10px 10px 10px skyblue;
       transition: background-color 1.0s, color 1.0s; 
       font-family: "Audiowide", sans-serif; 
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
+      height: 44px;
     }
     
     nav li a {
-      color: black;
+      color: white;
       text-decoration: none;
       display: block;
-      padding: 15px;
+      padding: 15px 0px;
     }
     
     nav li:hover {
-      background-color:darkblue;
+      background-color:skyblue;
     }
     
     nav li a:hover {
-      color: skyblue;
+      color: blue;
     }
     
     .ivopanel {
       width: 92px;
       padding: 0px 0px 0px 0px;
-      border-top: 2px solid skyblue;
-      margin: 5px 25px 0px 12px;
+      margin: -21px 25px 0px 12px;
       float: none;
     }
   
     .members {
-      font-size: 12px;
+      font-size: 10px;
       color: white;
       text-align: center;
-      padding: 10px 17px 0px 17px;
+      padding: 5px 17px 0px 17px;
       margin: 0px;
-      text-shadow: 1px 1px 0px skyblue;
+      text-shadow: 1px 1px 0px black;
       font-family: "Audiowide", sans-serif;
     }
   
     .dod {
-          font-size: 12px;
+          font-size: 10px;
           color: white;
           text-align: center;
-          padding: 20px 17px 0px 17px;
+          padding: 5px 17px 0px 17px;
           margin: 0px;
-          text-shadow: 1px 1px 0px skyblue;
+          text-shadow: 1px 1px 0px black;
           font-family: "Audiowide", sans-serif;
     }
     
-    .line1 {
-      height: 2px;
-      background-color: skyblue;
-      margin: 0px 14px;
-    }
-    
-    .line2 {
-      height: 2px;
-      background-color: white;
-      margin: 5px 30px 0px 30px;
-    }
-    
-    .line3 {
-      height: 2px;
-      background-color: skyblue;
-      margin: 5px 50px 16px 50px;
-    }
-    
-    .line4 {
-      height: 2px;
-      background-color: white;
-      margin: 0px 30px 0px 30px;
-    }
-    
-    .line5 {
-      height: 2px;
-      background-color: skyblue;
-      margin: 0px 50px 5px 50px;
-    }
-  
-    
     footer {
-      grid-column: 2/ span 5;
-      background-color: skyblue;
-      box-shadow: 13px 13px 10px rgb(84, 84, 252);
+      grid-column: 2/ span 6;
+      background-color: blue;
+      box-shadow: 13px 13px 10px darkcyan;
     }
     
     .bi {
       float: right;
-      padding: 10px 25px 5px 10px;
-      font-size: 30px;
-      color: black;
+      padding: 30px 25px 5px 10px;
+      font-size: 35px;
+      color: white;
       transition: color 1.0s; 
-      text-shadow: 2px 2px 2px darkblue;
+      text-shadow: 2px 2px 2px black;
       text-decoration: none;
     }
     
     .bi:hover {
-      color: darkblue;
-      text-shadow: 2px 2px 2px white;
+      color: black;
+      text-shadow: 2px 2px 2px skyblue;
     }
     
   .fa {
       float: right;
-      padding: 10px 10px 5px 10px;
-      font-size: 30px;
-      color: black;
+      padding: 30px 10px 5px 10px;
+      font-size: 35px;
+      color: white;
       transition: color 1.0s; 
-      text-shadow: 2px 2px 2px darkblue;
+      text-shadow: 2px 2px 2px black;
       text-decoration: none;
   }
   
   .fa:hover {
-      color: darkblue;
-      text-shadow: 2px 2px 2px white;
+      color: black;
+      text-shadow: 2px 2px 2px skyblue;
   }  
     
   .discog {
@@ -417,31 +348,24 @@ iframe {
   
   img {
       float: left;
-      width: 150px;
+      width: 129px;
    }
   
-   .videos { 
-    margin-top: 250px;
-    padding-right: 40px;
-    text-align: center;
-    text-decoration: underline;
-    text-shadow: 2px 2px 0px skyblue;
-   }
+   #myCarousel {
+    margin-bottom: 50px;
+    padding-left: 32px;
+  }
   
-    #myCarousel {
-      padding-top: 10px;
-      height: 310px;
-    }
-  
-    #myCarousel2 {
-      height: 205px;
-      padding: 0px 15px 0px 0px;
-    }
+  #myCarousel2 {
+    height: 316px;
+    width: 152px;
+    padding-left: 10px;
+  }
   
     .f-carousel {
       --f-button-width: 15px;
       --f-button-height: 25px;
-      --f-button-color: darkblue;  
+      --f-button-color: darkcyan;  
     }
   
     .picsvids {
@@ -455,7 +379,7 @@ iframe {
     text-decoration: underline;
     text-shadow: 2px 2px 0px skyblue;
     font-family: "Audiowide", sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     }
   
     .resize {
@@ -465,27 +389,26 @@ iframe {
   
    iframe {
     border: 0; 
-    width: 147px; 
-    height: 492px; 
+    width: 126px; 
+    height: 500px; 
     padding-bottom: 33px;
-  
   }
-  }
+}
   
 
 @media all and (min-width: 60rem){
 
 #wrapper {
     margin: 1em auto;
-    width: 1280px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 100px 776px 100px;
-    box-shadow: 13px 13px 10px rgb(84, 84, 252);
+    box-shadow: 13px 13px 10px blue(84, 84, 252);
   }
 
   body { 
-    max-width: 1280px; 
+    max-width: 1200px; 
     margin: 0rem auto; 
     display: grid;
   }
@@ -493,16 +416,16 @@ iframe {
   header {
     grid-column: 3/ span 12;
     height: 100px;
-    background-color: skyblue;
+    background-color: blue;
   }
   
   h1 {
     font-size: 25px;
     padding: 30px;
     margin: 0;
-    color: black;
+    color: white;
     font-style: italic;
-    text-shadow: 2px 2px 2px darkblue;
+    text-shadow: 2px 2px 2px skyblue;
     font-family: "Audiowide", sans-serif;
   }
   
@@ -510,7 +433,7 @@ iframe {
     width: 183px;
     grid-column: 1/ span 2;
     grid-row: 1;
-    background-color: darkblue;
+    background-color: skyblue;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -529,11 +452,11 @@ iframe {
   
   nav li {   
     width: 125px;
-    background-color: skyblue;
+    background-color: blue;
     display: block;
     margin: 20px -10px 20px -10px;
     text-align: center;
-    box-shadow: 10px 10px 10px darkblue;
+    box-shadow: 10px 10px 10px skyblue;
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -541,14 +464,14 @@ iframe {
   }
   
   nav li a {
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
     padding: 15px;
   }
   
   nav li:hover {
-    background-color:darkblue;
+    background-color:skyblue;
   }
   
   nav li a:hover {
@@ -556,68 +479,36 @@ iframe {
   }
   
   .ivopanel {
-    width: 150px;
+    width: 140px;
     padding: 5px 0px 0px 0px;
-    border-top: 2px solid skyblue;
-    margin: 5px 25px 5px 17px;
+    margin: -25px 25px -5px 22px;
     float: none;
   }
 
   .members {
-    font-size: 17px;
-    color: white;
+    font-size: 15px;
+    color: black;
     text-align: center;
     padding: 10px 17px 0px 17px;
     margin: 0px;
-    text-shadow: 1px 1px 0px skyblue;
+    text-shadow: 1px 1px 0px white;
     font-family: "Audiowide", sans-serif;
   }
 
   .dod {
         font-size: 17px;
-        color: white;
+        color: black;
         text-align: center;
         padding: 20px 17px 0px 17px;
         margin: 0px;
-        text-shadow: 1px 1px 0px skyblue;
+        text-shadow: 1px 1px 0px white;
         font-family: "Audiowide", sans-serif;
   }
-  
-  .line1 {
-    height: 2px;
-    background-color: skyblue;
-    margin: 0px 18px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: white;
-    margin: 5px 50px 0px 50px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: skyblue;
-    margin: 5px 75px 0px 75px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: white;
-    margin: 0px 50px 0px 50px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: skyblue;
-    margin: 0px 75px 5px 75px;
-  }
-
   
   footer {
     grid-column: 3/ span 12;
     background-color: skyblue;
-    box-shadow: 13px 13px 10px rgb(84, 84, 252);
+    box-shadow: 13px 13px 10px blue(84, 84, 252);
   }
   
   .bi {
@@ -626,13 +517,13 @@ iframe {
     font-size: 60px;
     color: black;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px darkblue;
+    text-shadow: 2px 2px 2px white;
     text-decoration: none;
   }
   
   .bi:hover {
-    color: darkblue;
-    text-shadow: 2px 2px 2px white;
+    color: blue;
+    text-shadow: 2px 2px 2px pink;
   }
   
 .fa {
@@ -641,13 +532,13 @@ iframe {
     font-size: 60px;
     color: black;
     transition: color 1.0s; 
-    text-shadow: 2px 2px 2px darkblue;
+    text-shadow: 2px 2px 2px white;
     text-decoration: none;
 }
 
 .fa:hover {
-    color: darkblue;
-    text-shadow: 2px 2px 2px white;
+    color: blue;
+    text-shadow: 2px 2px 2px pink ;
 }  
   
 .discog {
@@ -656,15 +547,7 @@ iframe {
 
 img {
     float: left;
-    width: 274px;
- }
-
- .videos { 
-  margin-top: 250px;
-  padding-right: 40px;
-  text-align: center;
-  text-decoration: underline;
-  text-shadow: 2px 2px 0px skyblue;
+    width: 254px;
  }
 
   #myCarousel {
@@ -704,7 +587,7 @@ img {
 
  iframe {
   border: 0; 
-  width: 271px; 
+  width: 251px; 
   height: 500px; 
   padding-bottom: 33px;
 }

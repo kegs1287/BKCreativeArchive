@@ -1,11 +1,297 @@
 #wrapper {
+  margin: 1em auto;
+  width: 443px;
+  height: 892px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 738px 100px;
+  box-shadow: 10px 10px 10px darkblue;
+}
+
+header {
+  grid-column: 2/ span 5;
+  height: 100px;
+  background-color: rgb(63, 56, 56);
+}
+
+h1 {
+  padding: 36px 25px;
+  margin: 0;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #53eeee;
+  font-family: "Audiowide", sans-serif;
+  font-size: 22px;
+}
+
+p {
+  text-align: center;
+  font-family: "Audiowide", sans-serif; 
+  margin-top: 0px;
+  margin-right: 47px;
+  margin-left: 88px;
+  margin-bottom: 0px;
+}
+
+nav {
+  grid-column: 1/ span 1;
+  grid-row: 1;
+  background-color: #53eeee;
+  grid-row-end: 4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 892px;
+}
+
+nav ul {
+  background-color: white;
+  margin: 36px;
+  padding: 20px;
+  margin: 15px 15px 35px 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 6px;
+}
+
+nav li { 
+  width: 60px;  
+  background-color: rgb(63, 56, 56);
+  display: block;
+  margin: 20px 0px 20px -13px;
+  text-align: center;
+  box-shadow: 10px 10px 10px darkblue;
+  transition: background-color 1.0s, color 1.0s; 
+  font-family: "Audiowide", sans-serif; 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 0px;
+}
+
+nav li:hover {
+  background-color:#53eeee;
+}
+
+nav li a:hover {
+  color: rgb(42, 39, 39);
+}
+
+
+main {
+  grid-column: 2/ span 5;
+}
+
+h2 {
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #53eeee;
+  font-family: "Audiowide", sans-serif; 
+  font-size: 15x;
+  padding-left: 30px;
+  font-style: italic;
+}
+
+
+footer {
+  grid-column: 2/ span 5;
+  background-color: rgb(63, 56, 56);
+  height: 55px;
+}
+
+.bi {
+  width: 75px;
+  float: right;
+  padding: 10px 10px 5px 10px;
+  font-size: 14px;
+  color: white;
+  transition: color 1.0s; 
+  text-shadow: 2px 2px 2px #53eeee;
+}
+
+.bi:hover {
+  color: #53eeee;
+  text-shadow: 2px 2px 2px white;
+}
+
+
+.resume {
+  max-width: 89%;
+  max-height: 89.7%;
+  padding: 0px 0px 0px 0px;
+}
+
+.download {
+  font-family: "Audiowide", sans-serif; 
+  color: rgb(63, 56, 56);
+  text-shadow: 2px 2px 2px #53eeee;
+  font-size: 12px;
+  padding-left: 34px;
+}
+
+div {
+  margin-left: 70px;
+  font-size: 10px;
+}
+
+.download:hover {
+  color: rgb(0, 233, 233);
+  text-shadow: 2px 2px 2px rgb(63, 56, 56); 
+}
+
+@media all and (min-width: 36rem){
+
+#wrapper {
+  margin: 1em auto;
+  width: 700px;
+  height: 1586px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 1386px 100px;
+  box-shadow: 13px 13px 10px darkblue;
+}
+
+header {
+  grid-column: 2/ span 5;
+  height: 100px;
+  background-color: rgb(63, 56, 56);
+}
+
+h1 {
+  padding: 30px;
+  margin: 0;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #53eeee;
+  font-family: "Audiowide", sans-serif;
+  font-size: 31px;
+}
+
+p {
+  text-align: center;
+  font-family: "Audiowide", sans-serif; 
+  margin-bottom: 0px;
+}
+
+nav {
+  grid-column: 1/ span 1;
+  grid-row: 1;
+  background-color: #53eeee;
+  grid-row-end: 4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 117px;
+  height: 1586px;
+}
+
+nav ul {
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 48px;
+  font-size: 8px;
+}
+
+nav li {   
+  background-color: rgb(63, 56, 56);
+  display: block;
+  margin: 20px 0px 20px -13px;
+  text-align: center;
+  box-shadow: 10px 10px 10px darkblue;
+  transition: background-color 1.0s, color 1.0s; 
+  font-family: "Audiowide", sans-serif; 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 71px;
+  height: 43px;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 17px 0px;
+}
+
+nav li:hover {
+  background-color:#53eeee;
+}
+
+nav li a:hover {
+  color: rgb(42, 39, 39);
+}
+
+
+h2 {
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #53eeee;
+  font-family: "Audiowide", sans-serif; 
+  font-size: 30px;
+  padding-left: 30px;
+  font-style: italic;
+}
+
+
+footer {
+  grid-column: 2/ span 6;
+  background-color: rgb(63, 56, 56);
+  height: 100px;
+}
+
+.bi {
+  width: 75px;
+  float: right;
+  padding: 10px 10px 5px 10px;
+  font-size: 75px;
+  color: white;
+  transition: color 1.0s; 
+  text-shadow: 2px 2px 2px #53eeee;
+}
+
+.bi:hover {
+  color: #53eeee;
+  text-shadow: 2px 2px 2px white;
+}
+
+
+.resume {
+  max-width: 89%;
+  max-height: 89.7%;
+ padding: 5px 0px 0px 0px;
+}
+
+.download {
+  padding: 109px;
+  font-family: "Audiowide", sans-serif; 
+  color: rgb(63, 56, 56);
+  text-shadow: 2px 2px 2px #53eeee;
+  font-size: 22px;
+}
+
+.download:hover {
+  color: rgb(0, 233, 233);
+  text-shadow: 2px 2px 2px rgb(63, 56, 56); 
+}
+div {
+  margin-left: 56px;
+  font-size: 16px;
+}
+}
+
+@media all and (min-width: 60rem){
+#wrapper {
     margin: 1em auto;
     width: 1200px;
-    height: 2323px;
+    height: 2005px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 2123px 100px;
-    box-shadow: 10px 10px 10px #53eeee;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 100px 1805px 100px;
+    box-shadow: 10px 10px 10px darkblue;
   }
   
   header {
@@ -15,46 +301,50 @@
   }
   
   h1 {
-    padding: 30px;
+    padding: 25px;
     margin: 0;
     color: white;
     font-style: italic;
     text-shadow: 2px 2px 2px #53eeee;
     font-family: "Audiowide", sans-serif;
-    font-size: 26px;
+    font-size: 37px;
   }
 
   p {
     text-align: center;
     font-family: "Audiowide", sans-serif; 
     margin-top: 0px;
-    margin-right: 47px;
+    margin-right: -110px;
   }
   
   nav {
+    width: 183px;
     grid-column: 1/ span 2;
     grid-row: 1;
     background-color: #53eeee;
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 2323px;
+    height: 2005px;
   }
   
   nav ul {
     background-color: white;
-    margin: 15px;
+    margin: 15px 15px 35px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    width: 110px;
+    font-size: 13px;
   }
   
-  nav li {   
+  nav li {  
+    width: 125px; 
     background-color: rgb(63, 56, 56);
     display: block;
-    margin: 20px 0px 20px 0px;
+    margin: 20px -10px 20px -10px;
     text-align: center;
-    box-shadow: 10px 10px 10px rgb(63, 56, 56);
+    box-shadow: 10px 10px 10px darkblue;
     transition: background-color 1.0s, color 1.0s; 
     font-family: "Audiowide", sans-serif; 
     border-top-left-radius: 10px;
@@ -76,46 +366,9 @@
     color: rgb(42, 39, 39);
   }
   
-  .uofi {
-    width: 166px;
-    padding: 5px 0px 0px 0px;
-    border-top: 2px solid rgb(63, 56, 56);
-    margin: 20px 25px 0px 17px;
-  }
-
-  
-  .line1 {
-    height: 2px;
-    background-color: rgb(63, 56, 56);
-    margin: 0px 18px;
-  }
-  
-  .line2 {
-    height: 2px;
-    background-color: rgb(63, 56, 56);
-    margin: 20px 50px 0px 50px;
-  }
-  
-  .line3 {
-    height: 2px;
-    background-color: rgb(63, 56, 56);
-    margin: 20px 75px 0px 75px;
-  }
-  
-  .line4 {
-    height: 2px;
-    background-color: rgb(63, 56, 56);
-    margin: 0px 50px 0px 50px;
-  }
-  
-  .line5 {
-    height: 2px;
-    background-color: rgb(63, 56, 56);
-    margin: 17px 75px 20px 75px;
-  }
   
   main {
-    grid-column: 3/ span 12;
+    grid-column: 3/ span 9;
   }
 
   h2 {
@@ -156,7 +409,7 @@
   }
 
   .download {
-    padding: 316px;
+    padding-left: 249px;
     font-family: "Audiowide", sans-serif; 
     color: rgb(63, 56, 56);
     text-shadow: 2px 2px 2px #53eeee;
@@ -167,4 +420,9 @@
     color: rgb(0, 233, 233);
     text-shadow: 2px 2px 2px rgb(63, 56, 56); 
   }
+  div {
+    margin-left: 70px;
+    font-size: 18px;
+  }
+}
   
