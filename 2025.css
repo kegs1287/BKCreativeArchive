@@ -1,0 +1,145 @@
+#Background {
+    animation: inn 12s infinite;
+}
+
+#I {
+    animation: bob 2s infinite ease-in-out, I 4s, rotate 5.0s;
+    transform-origin: center;
+  }
+  
+  @keyframes I {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+ 
+ @keyframes rotate {
+  0%   { transform: rotate(360deg);}
+  80% {transform: rotate(0deg);}
+  90% { transform: rotate(0deg);}
+  100% { transform: rotate(0deg);}
+    }
+
+@keyframes inn {
+    0% { filter: invert(0%);}
+    60% {filter: invert(0%);}
+    70% {filter: invert(100%);}
+    80% {filter: invert(100%);}
+    90% {filter: invert(100%);}
+    100% {filter: invert(100%);}
+}   
+
+  #V {
+    animation: V 6.0s, rotate 12s infinite, inn 12s infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes V {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #O {
+    animation: bob 2.5s infinite ease-in-out, O 8.0s, rotate 9s, inn 12s infinite;
+      }
+
+  @keyframes O {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+  
+  @keyframes New {
+    0%   { transform: translate(0, 200%);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #_2025 {
+    animation: bob 3s infinite ease-in-out, _2025 8.0s, inn 12s infinite;
+  }
+  
+  @keyframes _2025 {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+
+
+#New {
+    animation: bob 4s linear infinite, New 10s, inn 12s infinite;
+}
+
+
+@keyframes bob {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+}
+
+#svg {
+  animation: glitch 1s linear infinite;
+  animation-delay: 7.5s;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+#svg:before,
+#svg:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+#svg:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+svg:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
