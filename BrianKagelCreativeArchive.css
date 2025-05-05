@@ -126,6 +126,11 @@ footer {
   box-shadow: 13px 13px 10px rgb(110, 209, 110);
 }
 
+#defaultCanvas0 {
+  position: absolute;
+  top: 580px;
+  left: 0;
+}
 
 @media all and (min-width: 36rem){
   body {
@@ -254,7 +259,11 @@ footer {
     background-color: green;
     box-shadow: 13px 13px 10px rgb(110, 209, 110);
   }
-
+  #defaultCanvas0 {
+    position: absolute;
+    top: 580px;
+    left: 0;
+  }
 
 }
 
@@ -387,6 +396,11 @@ footer {
     box-shadow: 13px 13px 10px rgb(110, 209, 110);
   }
   
+  #defaultCanvas0 {
+    position: absolute;
+    top: 625px;
+    left: 0;
+  }
 }
 
 
