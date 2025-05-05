@@ -79,6 +79,10 @@ body {
   
   main {
     grid-column: 2/ span 5;
+    height:477px;
+    width:357px;
+    font:16px/26px Chakra Petch, sans-serif;
+    overflow:auto
   }
   
   h4 {
@@ -96,6 +100,9 @@ body {
 
   h2 {
     font-size: 11px;
+    margin: 25px;
+    font-style: italic;
+    text-decoration: underline;
     }
   
 
@@ -105,6 +112,30 @@ body {
     background-color: goldenrod;
     box-shadow: 13px 13px 10px gold;
   }
+  .bh-post-full {
+    border: 2px solid goldenrod;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: gold;
+    width: 200px;
+  }
+
+  .bh-meta-date {
+    margin: 25px;
+  }
+
+  .bh-post-wrap {
+    margin-right: 600px;
+  }
+
+  .bh-post-text {
+    padding: 0px;
+  }
+
+  .bh-post-title {
+    margin: 0px;
+  }
+
   
   
   @media all and (min-width: 36rem){
@@ -117,7 +148,7 @@ body {
       width: 700px;
       display: grid;
       grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 100px 477px 100px;
+      grid-template-rows: 100px 560px 100px;
       box-shadow: 13px 13px 10px gold;
     }
     
@@ -187,6 +218,10 @@ body {
     
     main {
       grid-column: 2/ span 5;
+      height:495px;
+      width:575px;
+      font:16px/26px Chakra Petch, sans-serif;
+      overflow:auto
     }
     
     h4 {
@@ -203,6 +238,9 @@ body {
 
       h2 {
         font-size: 13px;
+        margin: 25px;
+        font-style: italic;
+        text-decoration: underline;
         }
   
     
@@ -211,7 +249,22 @@ body {
       background-color: goldenrod;
       box-shadow: 13px 13px 10px gold;
     }
+
+    .bh-post-full {
+      border: 2px solid goldenrod;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background-color: gold;
+      width: 200px;
+    }
   
+    .bh-meta-date {
+      margin: 25px;
+    }
+  
+    .bh-post-wrap {
+      margin-right: 600px;
+    }
   }
   
   @media all and (min-width: 60rem){
@@ -221,7 +274,7 @@ body {
       width: 1200px;
       display: grid;
       grid-template-columns: repeat(14, 1fr);
-      grid-template-rows: 100px 525px 100px;
+      grid-template-rows: 100px 570px 100px;
       box-shadow: 13px 13px 10px gold;
     }
   
@@ -295,6 +348,10 @@ body {
     
     main {
       grid-column: 3/ span 12;
+      height:577px;
+      width:967px;
+      font:16px/22px Chakra Petch, sans-serif;
+      overflow:auto
     }
     
     h4 {
@@ -312,6 +369,9 @@ body {
 
       h2 {
       font-size: 18px;
+      margin: 25px;
+      font-style: italic;
+      text-decoration: underline;
       }
     
     footer {
@@ -320,6 +380,21 @@ body {
       box-shadow: 13px 13px 10px gold;
     }
     
+  .bh-post-full {
+    border: 2px solid goldenrod;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: gold;
+    width: 200px;
+  }
+
+  .bh-meta-date {
+    margin: 25px;
+  }
+
+  .bh-post-wrap {
+    margin-right: 600px;
+  }
   }
   
   
