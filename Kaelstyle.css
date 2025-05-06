@@ -194,6 +194,12 @@ font-size: 14px;
 font-family: "Audiowide", sans-serif;
 }
 
+#defaultCanvas0 {
+  position: absolute;
+  top: 650px;
+  left: 0;
+}
+
 @media all and (min-width: 36rem){
   #wrapper {
     margin: 1em auto;
@@ -397,6 +403,12 @@ iframe {
   width: 58px;
   padding-top: 15px;
 }
+
+#defaultCanvas0 {
+  position: absolute;
+  top: 650px;
+  left: 0;
+}
 }
 
 @media all and (min-width: 60rem){
@@ -468,7 +480,7 @@ iframe {
     color: #ffffff;
     text-decoration: none;
     display: block;
-    padding: 15px 0px;
+    padding: 14px 0px;
   }
   
   nav li:hover {
@@ -608,5 +620,12 @@ iframe {
 .resize {
   font-size: 20px;
   font-family: "Audiowide", sans-serif;
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  top: 650px;
+  left: 0;
+  margin-top: 320px;
 }
 }

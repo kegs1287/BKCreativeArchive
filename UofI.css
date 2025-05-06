@@ -84,7 +84,7 @@ nav li a:hover {
 .uofi {
   width: 76px;
   padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 13px;
+  margin: -15px 0px 0px 13px;
 }
 
 main {
@@ -125,6 +125,11 @@ footer {
   width: 40%;
   float: right;
   padding-left: 16px;
+}
+#defaultCanvas0 {
+  position: absolute;
+  top: 570px;
+  left: 0;
 }
 
 
@@ -257,6 +262,12 @@ footer {
     width: 40%;
     float: right;
     padding-left: 16px;
+  }
+
+  #defaultCanvas0 {
+    position: absolute;
+    top: 570px;
+    left: 0;
   }
 }
 
@@ -395,5 +406,11 @@ footer {
     width: 40%;
     float: right;
     padding-left: 16px;
+  }
+
+  #defaultCanvas0 {
+    position: absolute;
+    top: 620px;
+    left: 0;
   }
 }

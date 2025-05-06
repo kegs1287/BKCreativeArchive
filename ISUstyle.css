@@ -212,6 +212,11 @@
       text-shadow: 2px 2px 2px red;
     }
     
+    #defaultCanvas0 {
+      position: absolute;
+      top: 670px;
+      left: 0;
+    }
     
 
 @media all and (min-width: 36rem){
@@ -425,6 +430,12 @@
     font:16px/26px Chakra Petch, sans-serif;
     overflow:auto
   }
+
+  #defaultCanvas0 {
+    position: absolute;
+    top: 670px;
+    left: 0;
+  }
   }  
     
 
@@ -506,7 +517,7 @@
   
   .seal {
     width: 111px;
-    padding: 9px 0px 0px 21px;
+    padding: 93px 0px 0px 25px;
     margin: -37px 25px 0px 12px;
   }
   
@@ -642,6 +653,12 @@ div {
   width:604px;
   font:16px/26px Chakra Petch, sans-serif;
   overflow:auto
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  top: 610px;
+  left: 0;
 }
 }  
   

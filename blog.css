@@ -129,6 +129,12 @@ body {
     margin-right: 0px;
     margin-left: 25px;
   }
+
+  #defaultCanvas0 {
+    position: absolute;
+    top: 570px;
+    left: 0;
+  }
   
   
   @media all and (min-width: 36rem){
@@ -258,6 +264,11 @@ body {
     .bh-post-wrap {
       margin-right: 0px;
       margin-left: 7px;
+    }
+    #defaultCanvas0 {
+      position: absolute;
+      top: 660px;
+      left: 0;
     }
   }
   
@@ -389,6 +400,11 @@ body {
   .bh-post-wrap {
     margin-right: 0px;
     margin-left: 25px;
+  }
+  #defaultCanvas0 {
+    position: absolute;
+    top: 670px;
+    left: 0;
   }
   }
   

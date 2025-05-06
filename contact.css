@@ -84,6 +84,12 @@ li {
     text-align: center;
 }
 
+#defaultCanvas0 {
+  position: absolute;
+  top: 625px;
+  left: 0;
+}
+
 @media all and (min-width: 36rem){
   #wrapper {
     margin: 1em auto;
@@ -169,6 +175,11 @@ li {
     width: 136px;
     height: 40px;
     text-align: center;
+}
+#defaultCanvas0 {
+  position: absolute;
+  top: 650px;
+  left: 0;
 }
 }
 
@@ -258,6 +269,11 @@ li {
     width: 136px;
     height: 40px;
     text-align: center;
+}
+#defaultCanvas0 {
+  position: absolute;
+  top: 650px;
+  left: 0;
 }
 }
     

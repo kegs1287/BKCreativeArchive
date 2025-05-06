@@ -87,7 +87,7 @@ nav li a:hover {
 }
 
 .members {
-  font-size: 8px;
+  font-size: 7px;
   color: #ffffff;
   text-align: center;
   padding: 5px 17px 0px 17px;
@@ -97,7 +97,7 @@ nav li a:hover {
 }
 
 .dod {
-      font-size: 8px;
+      font-size: 7px;
       color: white;
       text-align: center;
       padding: 5px 17px 0px 17px;
@@ -194,6 +194,12 @@ iframe {
   height: 456px; 
   padding-bottom: 33px;
 
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  top: 650px;
+  left: 0;
 }
 
 @media all and (min-width: 36rem){
@@ -393,6 +399,12 @@ iframe {
     height: 500px; 
     padding-bottom: 33px;
   }
+
+  #defaultCanvas0 {
+    position: absolute;
+    top: 740px;
+    left: 0;
+  }
 }
   
 
@@ -591,5 +603,11 @@ img {
   width: 223px; 
   height: 500px; 
   padding-bottom: 33px;
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  top: 870px;
+  left: 0;
 }
 }
