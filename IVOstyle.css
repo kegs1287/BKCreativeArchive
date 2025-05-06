@@ -25,7 +25,7 @@ h1 {
   margin: 0;
   color: white;
   font-style: italic;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px skyblue;
   font-family: "Audiowide", sans-serif;
 }
 
@@ -42,22 +42,22 @@ nav {
 
 nav ul {
   background-color: white;
-  width: 36px;
-  margin: 15px 15px 35px 15px;
+  width: 44px;
+  margin: 15px 0px 35px 10px;
   padding: 20px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 6px;
+  font-size: 7px;
 }
 
 nav li {   
-  width: 60px;
+  width: 73px;
   height: 41px;
   background-color: blue;
   display: block;
-  margin: 20px 0px 20px -13px;
+  margin: 20px 0px 20px -16px;
   text-align: center;
-  box-shadow: 10px 10px 10px darkblue;
+  box-shadow: 10px 10px 10px skyblue;
   transition: background-color 1.0s, color 1.0s; 
   font-family: "Audiowide", sans-serif; 
   border-top-left-radius: 10px;
@@ -118,13 +118,13 @@ footer {
   font-size: 24px;
   color: white;
   transition: color 1.0s; 
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px skyblue;
   text-decoration: none;
 }
 
 .bi:hover {
   color: black;
-  text-shadow: 2px 2px 2px skyblue;
+  text-shadow: 2px 2px 2px white;
 }
 
 .fa {
@@ -133,13 +133,13 @@ footer {
   font-size: 23px;
   color: white;
   transition: color 1.0s; 
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px skyblue;
   text-decoration: none;
 }
 
 .fa:hover {
   color: black;
-  text-shadow: 2px 2px 2px skyblue;
+  text-shadow: 2px 2px 2px white;
 }  
 
 .discog {
@@ -220,12 +220,12 @@ iframe {
     }
     
     h1 {
-      font-size: 21px;
-      padding: 30px;
+      font-size: 24px;
+      padding: 35px 25px;
       margin: 0;
       color: white;
       font-style: italic;
-      text-shadow: 2px 2px 2px black;
+      text-shadow: 2px 2px 2px skyblue;
       font-family: "Audiowide", sans-serif;
     }
     
@@ -247,14 +247,14 @@ iframe {
       padding: 20px;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      font-size: 7px;
+      font-size: 8px;
     }
     
     nav li {   
-      width: 71px;
+      width: 76px;
       background-color: blue;
       display: block;
-      margin: 20px 0px 20px -13px;
+      margin: 20px 0px 20px -17px;
       text-align: center;
       box-shadow: 10px 10px 10px skyblue;
       transition: background-color 1.0s, color 1.0s; 
@@ -318,13 +318,13 @@ iframe {
       font-size: 35px;
       color: white;
       transition: color 1.0s; 
-      text-shadow: 2px 2px 2px black;
+      text-shadow: 2px 2px 2px skyblue;
       text-decoration: none;
     }
     
     .bi:hover {
       color: black;
-      text-shadow: 2px 2px 2px skyblue;
+      text-shadow: 2px 2px 2px white;
     }
     
   .fa {
@@ -333,13 +333,13 @@ iframe {
       font-size: 35px;
       color: white;
       transition: color 1.0s; 
-      text-shadow: 2px 2px 2px black;
+      text-shadow: 2px 2px 2px skyblue;
       text-decoration: none;
   }
   
   .fa:hover {
       color: black;
-      text-shadow: 2px 2px 2px skyblue;
+      text-shadow: 2px 2px 2px white;
   }  
     
   .discog {
@@ -542,12 +542,12 @@ iframe {
 }  
   
 .discog {
-    grid-column: 3 / span 9;
+    grid-column: 3 / span 8;
    }
 
 img {
     float: left;
-    width: 254px;
+    width: 226px;
  }
 
   #myCarousel {
@@ -557,7 +557,7 @@ img {
 
   #myCarousel2 {
     height: 310px;
-    padding: 10px 35px 0px 35px;
+    width: 307px;
   }
 
   .f-carousel {
@@ -567,12 +567,13 @@ img {
   }
 
   .picsvids {
-    grid-column: 12 / span 3;
+    grid-column: 11 / span 4;
+    padding-left: 28px;
    }
 
 .picturesvideos {
    display: grid;
-   margin: 10px 10px 0px 10px;
+   margin: 10px 10px 0px -19px;
    text-align: center;
   text-decoration: underline;
   text-shadow: 2px 2px 0px skyblue;
@@ -587,7 +588,7 @@ img {
 
  iframe {
   border: 0; 
-  width: 251px; 
+  width: 223px; 
   height: 500px; 
   padding-bottom: 33px;
 }

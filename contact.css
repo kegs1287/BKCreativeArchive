@@ -35,10 +35,10 @@
   }
   
   nav li {
-    height: 47px;
-    width: 70px;   
+    height: 44px;
+    width: 74px;   
     display: block;
-    margin: 20px 0px 20px -13px;
+    margin: 20px 0px 20px -16px;
     text-align: center;
     box-shadow: 10px 10px 10px pink;
     transition: background-color 1.0s, color 1.0s; 
@@ -122,7 +122,7 @@ li {
   }
   
   nav li {
-    height: 45px;
+    height: 44px;
     width: 80px;   
     display: block;
     margin: 20px 0px 20px -13px;

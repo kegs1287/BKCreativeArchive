@@ -14,7 +14,7 @@ header {
 }
 
 h1 {
-  padding: 30px;
+  padding: 30px 25px;
   font-size: 17px;
   margin: 0;
   color: white;
@@ -36,20 +36,20 @@ nav {
 
 nav ul {
   background-color: white;
-  width: 36px;
-  margin: 15px 15px 0px 15px;
+  width: 44px;
+  margin: 15px 0px 0px 10px;
   padding: 1px 20px 1px 20px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 6px;
+  font-size: 7px;
 }
 
 nav li { 
-  width: 60px;  
+  width: 73px;  
   height: 40px;
   background-color: purple;
   display: block;
-  margin: 20px 0px 20px -13px;
+  margin: 20px 0px 20px -16px;
   text-align: center;
   box-shadow: 10px 10px 10px plum;
   transition: background-color 1.0s, color 1.0s; 
@@ -211,8 +211,8 @@ font-family: "Audiowide", sans-serif;
   }
   
   h1 {
-    font-size: 26px;
-    padding: 17px;
+    font-size: 21px;
+    padding: 35px 17px;
     margin: 0;
     color: white;
     font-style: italic;
@@ -237,15 +237,15 @@ font-family: "Audiowide", sans-serif;
     padding: 5px 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 7px;
+    font-size: 8px;
   }
   
   nav li {   
-    width: 71px;
+    width: 76px;
     height: 43px;
     background-color: purple;
     display: block;
-    margin: 20px 0px 20px -13px;
+    margin: 20px 0px 20px -17px;
     text-align: center;
     box-shadow: 10px 10px 10px plum;
     transition: background-color 1.0s, color 1.0s; 
@@ -544,8 +544,8 @@ img {
 }
 
 .live {
-  width: 148px;
-  height: 90px;
+  width: 186px;
+  height: 125px;
 }
 
 .picsvids {
@@ -553,12 +553,13 @@ img {
    margin: 3px 30px
   }
 
-  h2 {
+  h4 {
     margin: 5px 0px 10px 0px;
     text-decoration: underline;
     text-shadow: 1px 1px 0px purple;
     font-family: "Audiowide", sans-serif;
     text-align: center;
+    font-size: 27px;
   }
 
 

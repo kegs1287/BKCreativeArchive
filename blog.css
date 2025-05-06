@@ -29,7 +29,7 @@ body {
   
   
   nav {
-    width: 100px;
+    width: 102px;
     grid-column: 1/ span 1;
     grid-row: 1;
     background-color: black;
@@ -40,19 +40,19 @@ body {
   
   nav ul {
     background-color: white;
-    width: 74px;
-    margin: 15px 15px 35px 15px;
+    width: 84px;
+    margin: 15px 15px 35px 9px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 6px;
+    font-size: 7px;
   }
   
   nav li {
-    width: 60px;   
+    width: 73px;   
     background-color: goldenrod;
     display: block;
-    margin: 20px 0px 20px -15px;
+    margin: 20px 0px 20px -17px;
     text-align: center;
     box-shadow: 10px 10px 10px gold;
     transition: background-color 1.0s, color 1.0s; 
@@ -86,21 +86,20 @@ body {
   }
   
   h4 {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 2px black;
     font-family: "Audiowide", sans-serif; 
     font-size: 20px;
-    margin-top: 35px;
+    margin: 35px 20px;
     margin-bottom: 0px;
     font-style: italic;
   }
 
 
   h2 {
-    font-size: 11px;
-    margin: 25px;
+    font-size: 16px;
     font-style: italic;
     text-decoration: underline;
     }
@@ -112,6 +111,8 @@ body {
     background-color: goldenrod;
     box-shadow: 13px 13px 10px gold;
   }
+
+
   .bh-post-full {
     border: 2px solid goldenrod;
     border-top-left-radius: 20px;
@@ -125,17 +126,9 @@ body {
   }
 
   .bh-post-wrap {
-    margin-right: 600px;
+    margin-right: 0px;
+    margin-left: 25px;
   }
-
-  .bh-post-text {
-    padding: 0px;
-  }
-
-  .bh-post-title {
-    margin: 0px;
-  }
-
   
   
   @media all and (min-width: 36rem){
@@ -184,15 +177,15 @@ body {
       padding: 20px;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      font-size: 7px;
+      font-size: 8px;
     }
     
     nav li {  
-      width: 71px; 
+      width: 76px; 
       height: 44px;
       background-color: goldenrod;
       display: block;
-      margin: 20px 0px 20px -13px;
+      margin: 20px 0px 20px -16px;
       text-align: center;
       box-shadow: 10px 10px 10px gold;
       transition: background-color 1.0s, color 1.0s; 
@@ -225,19 +218,19 @@ body {
     }
     
     h4 {
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         color: white;
         text-shadow: 2px 2px 2px black;
         font-family: "Audiowide", sans-serif; 
-        font-size: 20px;
-        margin-top: 35px;
+        font-size: 28px;
+        margin: 30px 25px;
         margin-bottom: 0px;
         font-style: italic;
       }
 
       h2 {
-        font-size: 13px;
+        font-size: 20px;
         margin: 25px;
         font-style: italic;
         text-decoration: underline;
@@ -263,7 +256,8 @@ body {
     }
   
     .bh-post-wrap {
-      margin-right: 600px;
+      margin-right: 0px;
+      margin-left: 7px;
     }
   }
   
@@ -355,20 +349,20 @@ body {
     }
     
     h4 {
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         color: white;
         text-shadow: 2px 2px 2px black;
         font-family: "Audiowide", sans-serif; 
         font-size: 38px;
-        margin-top: 25px;
+        margin: 27px 25px;
         margin-bottom: 0px;
         font-style: italic;
         margin-right: 570px;
       }
 
       h2 {
-      font-size: 18px;
+      font-size: 25px;
       margin: 25px;
       font-style: italic;
       text-decoration: underline;
@@ -393,7 +387,8 @@ body {
   }
 
   .bh-post-wrap {
-    margin-right: 600px;
+    margin-right: 0px;
+    margin-left: 25px;
   }
   }
   

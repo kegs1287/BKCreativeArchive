@@ -45,19 +45,18 @@ nav {
 
 nav ul {
   background-color: white;
-  margin: 36px;
   padding: 20px;
-  margin: 15px 15px 35px 15px;
+  margin: 15px 7px 35px 8px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 6px;
+  font-size: 7px;
 }
 
 nav li { 
-  width: 60px;  
+  width: 76px;  
   background-color: rgb(63, 56, 56);
   display: block;
-  margin: 20px 0px 20px -13px;
+  margin: 20px -3px 20px -13px;
   text-align: center;
   box-shadow: 10px 10px 10px darkblue;
   transition: background-color 1.0s, color 1.0s; 
@@ -194,20 +193,20 @@ nav ul {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 48px;
-  font-size: 7px;
+  font-size: 8px;
 }
 
 nav li {   
   background-color: rgb(63, 56, 56);
   display: block;
-  margin: 20px 0px 20px -13px;
+  margin: 20px 0px 20px -18px;
   text-align: center;
   box-shadow: 10px 10px 10px darkblue;
   transition: background-color 1.0s, color 1.0s; 
   font-family: "Audiowide", sans-serif; 
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 71px;
+  width: 76px;
   height: 43px;
 }
 

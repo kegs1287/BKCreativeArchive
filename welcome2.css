@@ -1,5 +1,318 @@
 body {
+  animation: body-ani 30s linear infinite;
+  overflow-x: hidden;
+  height: 500px;
+}
+
+
+@keyframes body-ani {
+0%    {background-color: black;}
+20%   {background-color:black;}
+30%  {background-color: rgb(1, 1, 118);}
+40%   {background-color:black;}
+50%  {background-color:rgb(99, 0, 99)}
+60%   {background-color:black;}
+70%  {background-color: rgb(100, 0, 0);}
+80%   {background-color:black;}
+90%  {background-color: rgba(0, 104, 104, 0.907);}
+100%   {background-color:black;}
+}
+
+a:link {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgrey;
+}
+
+a:hover {
+  color: #0fa;
+  text-shadow:
+  0 0 17px hotpink   ,
+  0 0 20px hotpink,
+  0 0 31px hotpink,
+  0 0 17px #fff,
+  0 0 57px #fff,
+  0 0 67px #fff,
+  0 0 77px #fff,
+  0 0 126px #fff;
+  text-decoration: none;
+}
+
+.welcome {
+height: 100px;	
+overflow: hidden;
+position: relative;
+padding: 0px 0px 0px 0px;
+}
+
+.welcome p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0px 0px 0px 0px;
+line-height: 50px;
+text-align: center;
+font-family: "Audiowide", sans-serif;
+font-size: 25px;
+color: darkgrey;
+text-shadow:
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 15px #fff,
+  0 0 20px #0fa,
+  0 0 25px #0fa,
+  0 0 30px #0fa,
+  0 0 35px #0fa,
+  0 0 40px #0fa;
+  animation: welcome 0.5s ease-out infinite alternate, moves 2s ease-out;
+}
+
+@keyframes welcome {
+100% {
+text-shadow:
+0 0 4px #fff,
+0 0 11px #fff,
+0 0 19px #fff,
+0 0 40px #0fa,
+0 0 80px #0fa,
+0 0 90px #0fa,
+0 0 100px #0fa,
+0 0 150px #0fa;
+}
+0% {
+text-shadow:
+0 0 2px #fff,
+0 0 4px #fff,
+0 0 6px #fff,
+0 0 10px #0fa,
+0 0 45px #0fa,
+0 0 55px #0fa,
+0 0 70px #0fa,
+0 0 80px #0fa;
+}
+}
+
+@keyframes moves {
+  0% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0%);
+}
+}
+
+.to {
+height: 100px;	
+overflow: hidden;
+position: relative;
+padding: 0px 0px 0px 0px;
+ }
+
+.to p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0px 0px 0px 0px;
+line-height: 50px;
+text-align: center;
+font-family: "Audiowide", sans-serif;
+font-size: 25px;
+color: darkgrey;
+text-shadow:
+0 0 5px #fff,
+0 0 10px #fff,
+0 0 15px #fff,
+0 0 20px #0fa,
+0 0 25px #0fa,
+0 0 30px #0fa,
+0 0 35px #0fa,
+0 0 40px #0fa;
+animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
+}
+
+.the {
+  height: 100px;	
+  overflow: hidden;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  }
+
+.the p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  font-size: 25px;
+  color: darkgrey;
+  text-shadow:
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 15px #fff,
+  0 0 20px #0fa,
+  0 0 25px #0fa,
+  0 0 30px #0fa,
+  0 0 35px #0fa,
+  0 0 40px #0fa;
+  animation: welcome 0.7s ease-out infinite alternate, moves 2s ease-out;
+  }
+
+.archive {
+      height: 200px;	
+      overflow: hidden;
+      position: relative;
+      padding: 0px 0px 0px 0px;
+      }
+
+.archive p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  font-size: 25px;
+  color: darkgrey;
+  text-shadow:
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 15px #fff,
+  0 0 20px #0fa,
+  0 0 25px #0fa,
+  0 0 30px #0fa,
+  0 0 35px #0fa,
+  0 0 40px #0fa;
+  animation: welcome 0.4s ease-out infinite alternate, moves 2s ease-out;
+  }
+
+  .light_left {
+      transform-origin: center top;
+      height: 120vh;
+      left: -48.85vw;
+      top: 0px;
+      rotate: -30deg;
+      position: absolute;
+      width: 98.5vw;
+      z-index: -10;
+      background: conic-gradient(at 50% 5%, transparent 43%, hsl(0, 0%, 100%) 47%, hsl(0, 0%, 100%) 53%, transparent 57.5%) 50% -25px / 100% 100%;
+      background-blend-mode: overlay;
+      background-repeat: no-repeat;
+      mix-blend-mode: screen;
+      opacity: 1;
+      filter: blur(10px);
+      mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
+      animation: rotate_spotlight 10s linear infinite;
+    }
+    
+    @keyframes rotate_spotlight {
+      0% {
+        transform: rotate(0deg) scaleY(1) translateY(0);
+      }
+      25% {
+        transform: rotate(-15deg) scaleY(1.1) translateY(-3vh);
+      }
+      50% {
+        transform: rotate(0deg) scaleY(1) translateY(0);
+      }
+      75% {
+        transform: rotate(15deg) scaleY(1.1) translateY(-3vh);
+      }
+    }
+
+    .light_right {
+      transform-origin: center top;
+      height: 120vh;
+      left: 48.95vw;
+      top: 0px;
+      rotate: 30deg;
+      position: absolute;
+      width: 98.5vw;
+      z-index: -10;
+      background: conic-gradient(at 50% 5%, transparent 43%, hsl(0, 0%, 100%) 47%, hsl(0, 0%, 100%) 53%, transparent 57.5%) 50% -25px / 100% 100%;
+      background-blend-mode: overlay;
+      background-repeat: no-repeat;
+      mix-blend-mode: screen;
+      opacity: 1;
+      filter: blur(10px);
+      mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
+      animation: rotate_spotlight 10s linear infinite;
+    }
+
+    .tiedyed {
+      animation: rotation 6s infinite linear;
+      display: block;
+      margin: -100px 0px 0px 235px;  
+      position: absolute;
+    }
+
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    img {
+      border-radius: 30%;
+      width: 90px;
+      box-shadow: 
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #0fa,
+      0 0 25px #0fa,
+      0 0 30px #0fa,
+      0 0 35px #0fa,
+      0 0 40px #0fa;
+  animation: welcomes 0.5s ease-out infinite alternate, moves 2s ease-out;
+    }
+
+    @keyframes welcomes {
+      100% {
+      box-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+      }
+      0% {
+      box-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #0fa,
+      0 0 45px #0fa,
+      0 0 55px #0fa,
+      0 0 70px #0fa,
+      0 0 80px #0fa;
+      }
+      }
+
+      #defaultCanvas0 {
+        position: absolute;
+        top: 540px;
+        left: 0;
+      }
+      
+  
+
+
+@media all and (min-width: 36rem){
+  body {
     animation: body-ani 30s linear infinite;
+    overflow-x: hidden;
 }
 
 @keyframes body-ani {
@@ -42,7 +355,7 @@ a:hover {
 height: 110px;	
 overflow: hidden;
 position: relative;
-padding: 0px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 .welcome p {
@@ -53,7 +366,7 @@ position: absolute;
  line-height: 50px;
  text-align: center;
  font-family: "Audiowide", sans-serif;
- font-size: 40px;
+ font-size: 35px;
  color: darkgrey;
  text-shadow:
     0 0 5px #fff,
@@ -105,7 +418,7 @@ position: absolute;
 height: 100px;	
 overflow: hidden;
 position: relative;
-padding: 0px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
    }
 
 .to p {
@@ -116,7 +429,7 @@ margin: 35px 0px 0px 0px;
 line-height: 50px;
 text-align: center;
 font-family: "Audiowide", sans-serif;
-font-size: 40px;
+font-size: 35px;
 color: darkgrey;
 text-shadow:
 0 0 5px #fff,
@@ -134,7 +447,7 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
     height: 100px;	
     overflow: hidden;
     position: relative;
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
     }
 
 .the p {
@@ -145,7 +458,7 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
     line-height: 50px;
     text-align: center;
     font-family: "Audiowide", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: darkgrey;
     text-shadow:
     0 0 5px #fff,
@@ -163,7 +476,7 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
         height: 225px;	
         overflow: hidden;
         position: relative;
-        padding: 15px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
         }
 
 .archive p {
@@ -174,7 +487,7 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
     line-height: 50px;
     text-align: center;
     font-family: "Audiowide", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: darkgrey;
     text-shadow:
     0 0 5px #fff,
@@ -242,11 +555,9 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
       }
 
       .tiedyed {
-        width: 300px;
-        height: 300px;
         animation: rotation 6s infinite linear;
         display: block;
-        margin: 110px 0px 0px 550px;  
+        margin: -90px 0px 0px 390px;  
         position: absolute;
       }
 
@@ -261,6 +572,7 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
 
       img {
         border-radius: 30%;
+        width: 120px;
         box-shadow: 
         0 0 5px #fff,
         0 0 10px #fff,
@@ -300,8 +612,318 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
 
         #defaultCanvas0 {
           position: absolute;
-          top: 460px;
+          top: 570px;
           left: 0;
         }
         
+      }    
+
+
+@media all and (min-width: 60rem){
+body {
+    animation: body-ani 30s linear infinite;
+    overflow-x: hidden;
+}
+
+@keyframes body-ani {
+  0%    {background-color: black;}
+  20%   {background-color:black;}
+  30%  {background-color: rgb(1, 1, 118);}
+  40%   {background-color:black;}
+  50%  {background-color:rgb(99, 0, 99)}
+  60%   {background-color:black;}
+  70%  {background-color: rgb(100, 0, 0);}
+  80%   {background-color:black;}
+  90%  {background-color: rgba(0, 104, 104, 0.907);}
+  100%   {background-color:black;}
+}
+
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: #0fa;
+    text-shadow:
+    0 0 17px hotpink   ,
+    0 0 20px hotpink,
+    0 0 31px hotpink,
+    0 0 17px #fff,
+    0 0 57px #fff,
+    0 0 67px #fff,
+    0 0 77px #fff,
+    0 0 126px #fff;
+    text-decoration: none;
+}
+
+.welcome {
+height: 110px;	
+overflow: hidden;
+position: relative;
+padding: 0px 0px 0px 0px;
+}
+
+.welcome p {
+position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 35px 0px 0px 0px;
+ line-height: 50px;
+ text-align: center;
+ font-family: "Audiowide", sans-serif;
+ font-size: 50px;
+ color: darkgrey;
+ text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
+    animation: welcome 0.5s ease-out infinite alternate, moves 2s ease-out;
+}
+
+@keyframes welcome {
+  100% {
+  text-shadow:
+  0 0 4px #fff,
+  0 0 11px #fff,
+  0 0 19px #fff,
+  0 0 40px #0fa,
+  0 0 80px #0fa,
+  0 0 90px #0fa,
+  0 0 100px #0fa,
+  0 0 150px #0fa;
+  }
+  0% {
+  text-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #0fa,
+  0 0 45px #0fa,
+  0 0 55px #0fa,
+  0 0 70px #0fa,
+  0 0 80px #0fa;
+  }
+  }
+
+  @keyframes moves {
+    0% {
+      transform: translateY(200%);
+    }
+    100% {
+      transform: translateY(0%);
+  }
+}
+
+.to {
+height: 100px;	
+overflow: hidden;
+position: relative;
+padding: 0px 0px 0px 0px;
+   }
+
+.to p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 35px 0px 0px 0px;
+line-height: 50px;
+text-align: center;
+font-family: "Audiowide", sans-serif;
+font-size: 50px;
+color: darkgrey;
+text-shadow:
+0 0 5px #fff,
+0 0 10px #fff,
+0 0 15px #fff,
+0 0 20px #0fa,
+0 0 25px #0fa,
+0 0 30px #0fa,
+0 0 35px #0fa,
+0 0 40px #0fa;
+animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
+}
+
+.the {
+    height: 100px;	
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    }
+
+.the p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 35px 0px 0px 0px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    color: darkgrey;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
+    animation: welcome 0.7s ease-out infinite alternate, moves 2s ease-out;
+    }
+
+.archive {
+        height: 225px;	
+        overflow: hidden;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        }
+
+.archive p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 35px 0px 0px 0px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    color: darkgrey;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
+    animation: welcome 0.4s ease-out infinite alternate, moves 2s ease-out;
+    }
+
+    .light_left {
+        transform-origin: center top;
+        height: 120vh;
+        left: -48.85vw;
+        top: 0px;
+        rotate: -30deg;
+        position: absolute;
+        width: 98.5vw;
+        z-index: -10;
+        background: conic-gradient(at 50% 5%, transparent 43%, hsl(0, 0%, 100%) 47%, hsl(0, 0%, 100%) 53%, transparent 57.5%) 50% -25px / 100% 100%;
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        mix-blend-mode: screen;
+        opacity: 1;
+        filter: blur(10px);
+        mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
+        animation: rotate_spotlight 10s linear infinite;
+      }
+      
+      @keyframes rotate_spotlight {
+        0% {
+          transform: rotate(0deg) scaleY(1) translateY(0);
+        }
+        25% {
+          transform: rotate(-15deg) scaleY(1.1) translateY(-3vh);
+        }
+        50% {
+          transform: rotate(0deg) scaleY(1) translateY(0);
+        }
+        75% {
+          transform: rotate(15deg) scaleY(1.1) translateY(-3vh);
+        }
+      }
+
+      .light_right {
+        transform-origin: center top;
+        height: 120vh;
+        left: 48.95vw;
+        top: 0px;
+        rotate: 30deg;
+        position: absolute;
+        width: 98.5vw;
+        z-index: -10;
+        background: conic-gradient(at 50% 5%, transparent 43%, hsl(0, 0%, 100%) 47%, hsl(0, 0%, 100%) 53%, transparent 57.5%) 50% -25px / 100% 100%;
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        mix-blend-mode: screen;
+        opacity: 1;
+        filter: blur(10px);
+        mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
+        animation: rotate_spotlight 10s linear infinite;
+      }
+
+      .tiedyed {
+        animation: rotation 6s infinite linear;
+        display: block;
+        margin: -90px 0px 0px 600px;  
+        position: absolute;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      img {
+        border-radius: 30%;
+        width: 150px;
+        box-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #0fa,
+        0 0 25px #0fa,
+        0 0 30px #0fa,
+        0 0 35px #0fa,
+        0 0 40px #0fa;
+    animation: welcomes 0.5s ease-out infinite alternate, moves 2s ease-out;
+      }
+
+      @keyframes welcomes {
+        100% {
+        box-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+        }
+        0% {
+        box-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #0fa,
+        0 0 45px #0fa,
+        0 0 55px #0fa,
+        0 0 70px #0fa,
+        0 0 80px #0fa;
+        }
+        }
+
+        #defaultCanvas0 {
+          position: absolute;
+          top: 610px;
+          left: 0;
+        }
+      }       
     

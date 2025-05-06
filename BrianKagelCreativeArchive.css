@@ -29,7 +29,7 @@ h1 {
 }
 
 nav {
-  width: 100px;
+  width: 102px;
   grid-column: 1/ span 1;
   grid-row: 1;
   background-color: black;
@@ -40,20 +40,20 @@ nav {
 
 nav ul {
   background-color: white;
-  width: 36px;
-  margin: 15px 15px 35px 15px;
+  width: 44px;
+  margin: 15px 0px 35px 10px;
   padding: 20px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 6px;
+  font-size: 7px;
 }
 
 nav li {
-  width: 60px;
+  width: 73px;
   height: 40px;   
   background-color: green;
   display: block;
-  margin: 20px 0px 20px -13px;
+  margin: 20px 0px 20px -16px;
   text-align: center;
   box-shadow: 10px 10px 10px rgb(110, 209, 110);
   transition: background-color 1.0s, color 1.0s; 
@@ -174,20 +174,20 @@ footer {
   
   nav ul {
     background-color: white;
-    width: 48px;
+    width: 50px;
     margin: 15px 15px 35px 15px;
     padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 7px;
+    font-size: 8px;
   }
   
   nav li {  
-    width: 71px; 
+    width: 77px; 
     height: 43px;
     background-color: green;
     display: block;
-    margin: 20px 0px 20px -13px;
+    margin: 20px 0px 20px -16px;
     text-align: center;
     box-shadow: 10px 10px 10px rgb(110, 209, 110);
     transition: background-color 1.0s, color 1.0s; 
