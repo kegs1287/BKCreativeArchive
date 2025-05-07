@@ -10,7 +10,7 @@
     
     header {
       grid-column: 2/ span 5;
-      background-color: red;
+      background-color: #db0000;
     }
     
     h1 {
@@ -45,7 +45,7 @@
     
     nav li {  
       width: 73px; 
-      background-color: red;
+      background-color: #db0000;
       display: block;
       margin: 20px 0px 20px -16px;
       text-align: center;
@@ -68,7 +68,7 @@
     }
     
     nav li a:hover {
-      color: red;
+      color: #db0000;
     }
     
     .seal {
@@ -87,7 +87,7 @@
       color: black;
       font-size: 16px;
       font-family: "Chakra Petch", sans-serif;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
       padding-left: 17px;
       margin-bottom: 0px;
@@ -100,7 +100,7 @@
       padding-left: 17px;
       font-size: 16px;
       font-family: "Chakra Petch", sans-serif;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
       margin-bottom: 0px;
       margin-top: 30px;
@@ -112,7 +112,7 @@
       padding-left: 17px;
       font-size: 16px;
       font-family: "Chakra Petch", sans-serif;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
       margin-bottom: 0px;
       margin-top: 30px;
@@ -121,7 +121,7 @@
     .twofourzero {
       text-align: left;
       color: black;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       font-family: "Chakra Petch", sans-serif;
       font-size: 10px;
       padding-left: 32px;
@@ -137,7 +137,7 @@
     .threezeroone {
       text-align: left;
       color: black;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       font-family: "Chakra Petch", sans-serif;
       font-size: 16px;
       padding-left: 32px;
@@ -148,7 +148,7 @@
     .threefourfive {
       text-align: left;
       color: black;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       font-family: "Chakra Petch", sans-serif;
       font-size: 16px;
       padding-left: 32px;
@@ -184,7 +184,7 @@
     
     footer {
       grid-column: 2/ span 5;
-      background-color: red;
+      background-color: #db0000;
       box-shadow: 10px 10px 10px #999;
     }
     
@@ -209,7 +209,7 @@
     
    ul li .link:hover {
       color: black; 
-      text-shadow: 2px 2px 2px red;
+      text-shadow: 2px 2px 2px #db0000;
     }
     
     #defaultCanvas0 {
@@ -263,7 +263,7 @@
     }
     
     nav li {   
-      background-color: red;
+      background-color: #db0000;
       display: block;
       margin: 20px 0px 20px -19px;
       text-align: center;
@@ -288,7 +288,7 @@
     }
     
     nav li a:hover {
-      color: red;
+      color: #db0000;
     }
     
     .seal {
@@ -307,7 +307,7 @@
       color: black;
       font-size: 20px;
       font-family: "Chakra Petch", sans-serif;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
       padding-left: 17px;
       margin-bottom: 0px;
@@ -320,7 +320,7 @@
       padding-left: 17px;
       font-size: 20px;
       font-family: "Chakra Petch", sans-serif;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
       margin-bottom: 0px;
       margin-top: 30px;
@@ -332,7 +332,7 @@
       padding-left: 17px;
       font-size: 20px;
       font-family: "Chakra Petch", sans-serif;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
       margin-bottom: 0px;
       margin-top: 30px;
@@ -341,7 +341,7 @@
     .twofourzero {
       text-align: left;
       color: black;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       font-family: "Chakra Petch", sans-serif;
       font-size: 18px;
       padding-left: 32px;
@@ -357,7 +357,7 @@
     .threezeroone {
       text-align: left;
       color: black;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       font-family: "Chakra Petch", sans-serif;
       font-size: 16px;
       padding-left: 32px;
@@ -368,7 +368,7 @@
     .threefourfive {
       text-align: left;
       color: black;
-      text-shadow: 1px 1px 0px red;
+      text-shadow: 1px 1px 0px #db0000;
       font-family: "Chakra Petch", sans-serif;
       font-size: 16px;
       padding-left: 32px;
@@ -390,7 +390,7 @@
     
     footer {
       grid-column: 3/ span 12;
-      background-color: red;
+      background-color: #db0000;
       box-shadow: 10px 10px 10px #999;
     }
     
@@ -415,7 +415,7 @@
     
    ul li .link:hover {
       color: black; 
-      text-shadow: 2px 2px 2px red;
+      text-shadow: 2px 2px 2px #db0000;
     }
 
   iframe {
@@ -453,7 +453,7 @@
   
   header {
     grid-column: 3/ span 12;
-    background-color: red;
+    background-color: #db0000;
   }
   
   h1 {
@@ -489,7 +489,7 @@
   
   nav li {   
     width: 125px;
-    background-color: red;
+    background-color: #db0000;
     display: block;
     margin: 20px -10px 20px -10px;
     text-align: center;
@@ -512,7 +512,7 @@
   }
   
   nav li a:hover {
-    color: red;
+    color: #db0000;
   }
   
   .seal {
@@ -530,7 +530,7 @@
     color: black;
     font-size: 20px;
     font-family: "Chakra Petch", sans-serif;
-    text-shadow: 1px 1px 0px red;
+    text-shadow: 1px 1px 0px #db0000;
     text-decoration: underline;
     padding-left: 17px;
     margin-bottom: 0px;
@@ -543,7 +543,7 @@
     padding-left: 17px;
     font-size: 20px;
     font-family: "Chakra Petch", sans-serif;
-    text-shadow: 1px 1px 0px red;
+    text-shadow: 1px 1px 0px #db0000;
     text-decoration: underline;
     margin-bottom: 0px;
     margin-top: 30px;
@@ -555,7 +555,7 @@
     padding-left: 17px;
     font-size: 20px;
     font-family: "Chakra Petch", sans-serif;
-    text-shadow: 1px 1px 0px red;
+    text-shadow: 1px 1px 0px #db0000;
     text-decoration: underline;
     margin-bottom: 0px;
     margin-top: 30px;
@@ -564,7 +564,7 @@
   .twofourzero {
     text-align: left;
     color: black;
-    text-shadow: 1px 1px 0px red;
+    text-shadow: 1px 1px 0px #db0000;
     font-family: "Chakra Petch", sans-serif;
     font-size: 18px;
     padding-left: 32px;
@@ -580,7 +580,7 @@
   .threezeroone {
     text-align: left;
     color: black;
-    text-shadow: 1px 1px 0px red;
+    text-shadow: 1px 1px 0px #db0000;
     font-family: "Chakra Petch", sans-serif;
     font-size: 16px;
     padding-left: 32px;
@@ -591,7 +591,7 @@
   .threefourfive {
     text-align: left;
     color: black;
-    text-shadow: 1px 1px 0px red;
+    text-shadow: 1px 1px 0px #db0000;
     font-family: "Chakra Petch", sans-serif;
     font-size: 16px;
     padding-left: 32px;
@@ -613,7 +613,7 @@
   
   footer {
     grid-column: 3/ span 12;
-    background-color: red;
+    background-color: #db0000;
     box-shadow: 10px 10px 10px #999;
   }
   
@@ -638,7 +638,7 @@
   
  ul li .link:hover {
     color: black; 
-    text-shadow: 2px 2px 2px red;
+    text-shadow: 2px 2px 2px #db0000;
   }
 
 iframe {
