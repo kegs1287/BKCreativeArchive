@@ -416,7 +416,7 @@ iframe {
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 100px 776px 100px;
-    box-shadow: 13px 13px 10px blue(84, 84, 252);
+    box-shadow: 13px 13px 10px darkcyan;
   }
 
   body { 
@@ -520,7 +520,7 @@ iframe {
   footer {
     grid-column: 3/ span 12;
     background-color: blue;
-    box-shadow: 13px 13px 10px blue(84, 84, 252);
+    box-shadow: 13px 13px 10px darkcyan;
   }
   
   .bi {
