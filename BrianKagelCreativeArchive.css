@@ -10,6 +10,7 @@ body {
   grid-template-rows: 100px 477px 100px;
   box-shadow: 13px 13px 10px rgb(110, 209, 110);
   background-color: white;
+  height: 576px;
 }
 
 header {
@@ -144,6 +145,7 @@ footer {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px 477px 100px;
     box-shadow: 13px 13px 10px rgb(110, 209, 110);
+    height: 577px;
   }
   
   header {
@@ -276,6 +278,7 @@ footer {
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: 100px 525px 100px;
     box-shadow: 13px 13px 10px rgb(110, 209, 110);
+    height: 625px;
   }
 
   body { 
