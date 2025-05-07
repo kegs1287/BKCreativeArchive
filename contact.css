@@ -100,7 +100,7 @@ li {
     grid-template-rows: 100px 556px 100px;
     box-shadow: 13px 13px 10px pink;
     background-color: white;
-    height: 540px;
+    height: 550px;
   }
 
   main {
@@ -195,7 +195,7 @@ li {
     grid-template-rows: 100px 560px 100px;
     box-shadow: 13px 13px 10px pink;
     background-color: white;
-    height: 450px;
+    height: 575px;
   }
 
   main {
