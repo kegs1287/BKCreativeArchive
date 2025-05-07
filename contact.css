@@ -3,7 +3,7 @@
     width: 470px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px 550px 100px;
+    grid-template-rows: 100px 601px 100px;
     box-shadow: 13px 13px 10px pink;
     background-color: white;
   }
@@ -20,7 +20,7 @@
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 750px;
+    height: 747.5px;
   }
   
   nav ul {
@@ -31,7 +31,7 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     font-size: 7px;
-    height: 599px;
+    height: 548px;
   }
   
   nav li {
@@ -96,7 +96,7 @@ li {
     width: 700px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px 551px 100px;
+    grid-template-rows: 100px 550px 100px;
     box-shadow: 13px 13px 10px pink;
     background-color: white;
   }
@@ -113,7 +113,7 @@ li {
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 751px;
+    height: 750px;
   }
   
   nav ul {
@@ -190,7 +190,7 @@ li {
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
-    grid-template-rows: 100px 561px 100px;
+    grid-template-rows: 100px 560px 100px;
     box-shadow: 13px 13px 10px pink;
     background-color: white;
   }
@@ -207,7 +207,7 @@ li {
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 761px;
+    height: 760px;
   }
   
   nav ul {
@@ -270,11 +270,11 @@ li {
     height: 40px;
     text-align: center;
 }
-#defaultCanvas0 {
-  position: absolute;
-  top: 650px;
-  left: 0;
-}
+  #defaultCanvas0 {
+    position: absolute;
+    top: 650px;
+    left: 0;
+  }
 }
     
    
