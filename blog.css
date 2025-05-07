@@ -15,7 +15,7 @@ body {
   header {
     grid-column: 2/ span 5;
     height: 100px;
-    background-color: goldenrod;
+    background-color: #7f6524;
   }
   
   h1 {
@@ -50,7 +50,7 @@ body {
   
   nav li {
     width: 73px;   
-    background-color: goldenrod;
+    background-color: #7f6524;
     display: block;
     margin: 20px 0px 20px -17px;
     text-align: center;
@@ -108,7 +108,7 @@ body {
   
   footer {
     grid-column: 2/ span 5;
-    background-color: goldenrod;
+    background-color: #7f6524;
     box-shadow: 13px 13px 10px gold;
   }
 
@@ -154,7 +154,7 @@ body {
     header {
       grid-column: 2/ span 5;
       height: 100px;
-      background-color: goldenrod;
+      background-color: #7f6524;
     }
     
     h1 {
@@ -189,7 +189,7 @@ body {
     nav li {  
       width: 76px; 
       height: 44px;
-      background-color: goldenrod;
+      background-color: #7f6524;
       display: block;
       margin: 20px 0px 20px -16px;
       text-align: center;
@@ -245,7 +245,7 @@ body {
     
     footer {
       grid-column: 2/ span 5;
-      background-color: goldenrod;
+      background-color: #7f6524;
       box-shadow: 13px 13px 10px gold;
     }
 
@@ -292,7 +292,7 @@ body {
     header {
       grid-column: 3/ span 12;
       height: 100px;
-      background-color: goldenrod;
+      background-color: #7f6524;
     }
     
     h1 {
@@ -325,7 +325,7 @@ body {
     
     nav li { 
       width: 127px;  
-      background-color: goldenrod;
+      background-color: #7f6524;
       display: block;
       margin: 20px -10px 20px -10px;
       text-align: center;
@@ -381,7 +381,7 @@ body {
     
     footer {
       grid-column: 3/ span 12;
-      background-color: goldenrod;
+      background-color: #7f6524;
       box-shadow: 13px 13px 10px gold;
     }
     
@@ -389,7 +389,7 @@ body {
     border: 2px solid goldenrod;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: gold;
+    background-color: #7f6524;
     width: 200px;
   }
 
