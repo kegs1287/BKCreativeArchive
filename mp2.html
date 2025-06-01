@@ -6,7 +6,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 </head>
 <body>
-
 <script>
 let images = [];
 let index = 0;
@@ -27,6 +26,23 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
+
+  // iOS orientation permission
+  if (typeof(DeviceOrientationEvent) !== "undefined" && typeof(DeviceOrientationEvent.requestPermission) === "function") {
+    DeviceOrientationEvent.requestPermission()
+      .catch(() => {
+        let button = createButton("Allow Orientation");
+        button.style("font-size", "24px");
+        button.center();
+        button.mousePressed(() => {
+          DeviceOrientationEvent.requestPermission().then(response => {
+            if (response === "granted") {
+              button.remove();
+            }
+          });
+        });
+      });
+  }
 }
 
 function draw() {
@@ -39,7 +55,10 @@ function draw() {
 function deviceTurned() {
   index = (index + 1) % images.length;
 }
-</script>
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+</script>
 </body>
 </html>
