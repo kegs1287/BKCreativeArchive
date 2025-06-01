@@ -55,16 +55,8 @@ function draw() {
 }
 
 function deviceTurned() {
-  if (windowWidth > windowHeight) {
-    // Landscape
-    index = 0;
-    value = 255;
-  } else {
-    // Portrait
-    index = 1;
-    value = 0;
+    index = (index + 1) % images.length;
   }
-}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
