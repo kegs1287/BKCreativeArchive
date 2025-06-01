@@ -9,6 +9,8 @@
 <script>
 let images = [];
 let index = 0;
+let lastRotation = 0;
+let threshold = 80; // Minimum angle change to trigger image switch
 
 function preload() {
   images.push(loadImage("alien1.png"));
@@ -51,6 +53,16 @@ function draw() {
     image(images[index], width / 2, height / 2, width * 0.8, height * 0.8);
   }
 }
+
+// Only on devices that support rotation
+if (typeof rotationZ !== "undefined") {
+let change = abs(rotationZ - lastRotation);
+
+if (change > threshold) {
+index = (index + 1) % images.length;
+lastRotation = rotationZ;
+     }
+    }
 
 function deviceTurned() {
   index = (index + 1) % images.length;
