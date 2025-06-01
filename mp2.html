@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tumbling Alien</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body>
+
+<script>
+let images = [];
+let index = 0;
+
+function preload() {
+  images.push(loadImage("alien1.png"));
+  images.push(loadImage("alien2resize.png"));
+  images.push(loadImage("alien3resize.png"));
+  images.push(loadImage("alien4resize.png"));
+  images.push(loadImage("alien5resize.png"));
+  images.push(loadImage("alien6resize.png"));
+  images.push(loadImage("alien7resize.png"));
+  images.push(loadImage("alien8resize.png"));
+  images.push(loadImage("alien9resize.png"));
+  images.push(loadImage("alien10resize.png"));
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  imageMode(CENTER);
+}
+
+function draw() {
+  background(220);
+  if (images.length > 0) {
+    image(images[index], width / 2, height / 2, width * 0.8, height * 0.8);
+  }
+}
+
+function deviceTurned() {
+  index = (index + 1) % images.length;
+}
+</script>
+
+</body>
+</html>
