@@ -9,6 +9,7 @@
 <script>
 let images = [];
 let index = 0;
+let value = 0;
 
 function preload() {
   images.push(loadImage("alien1.png"));
@@ -53,7 +54,15 @@ function draw() {
 }
 
 function deviceTurned() {
-  index = (index + 1) % images.length;
+  if (windowWidth > windowHeight) {
+    // Landscape
+    index = 0;
+    value = 255;
+  } else {
+    // Portrait
+    index = 1;
+    value = 0;
+  }
 }
 
 function windowResized() {
