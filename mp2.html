@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Tumbling Alien</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
 </head>
 <body>
 <script>
@@ -11,6 +12,7 @@ let images = [];
 let index = 0;
 let lastRotation = 0;
 let threshold = 80; // Minimum angle change to trigger image switch
+let song;
 
 function preload() {
   images.push(loadImage("alien1.png"));
@@ -23,14 +25,19 @@ function preload() {
   images.push(loadImage("alien8resize.png"));
   images.push(loadImage("alien9resize.png"));
   images.push(loadImage("alien10resize.png"));
+  song = loadSound("OutofBody.mp3");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
+  if (song) song.play();
 
-  // iOS orientation permission
-  if (typeof(DeviceOrientationEvent) !== "undefined" && typeof(DeviceOrientationEvent.requestPermission) === "function") {
+  // iOS motion permission
+  if (
+    typeof(DeviceOrientationEvent) !== "undefined" &&
+    typeof(DeviceOrientationEvent.requestPermission) === "function"
+  ) {
     DeviceOrientationEvent.requestPermission()
       .catch(() => {
         let button = createButton("Allow Orientation");
@@ -45,27 +52,29 @@ function setup() {
         });
       });
   }
+
+  lastRotation = rotationZ; // initialize to current angle
 }
 
 function draw() {
-  background(220);
+  background(0);
+
   if (images.length > 0) {
     image(images[index], width / 2, height / 2, width * 0.8, height * 0.8);
   }
+
+  if (typeof rotationZ !== "undefined") {
+    let change = abs(rotationZ - lastRotation);
+    if (change > threshold) {
+      index = (index + 1) % images.length;
+      lastRotation = rotationZ;
+    }
+  }
 }
 
-// Only on devices that support rotation
-if (typeof rotationZ !== "undefined") {
-let change = abs(rotationZ - lastRotation);
-
-if (change > threshold) {
-index = (index + 1) % images.length;
-lastRotation = rotationZ;
-     }
-    }
-
 function deviceTurned() {
-  index = (index + 1) % images.length;
+  // Optional: you can use this for additional rotation triggers
+  // index = (index + 1) % images.length;
 }
 
 function windowResized() {
