@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>p5.js Tumbling Patterns</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body>
+<script>
+let state = 0;
+let shapes = [];
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  rectMode(CENTER);
+  initShapes();
+}
+
+function draw() {
+  background(220);
+
+  for (let s of shapes) {
+    // update motion
+    s.x += s.dx;
+    s.y += s.dy;
+    s.rot += s.drot;
+
+    // bounce off walls
+    if (s.x < 0 || s.x > width)  s.dx *= -1;
+    if (s.y < 0 || s.y > height) s.dy *= -1;
+
+    // draw
+    push();
+    translate(s.x, s.y);
+    rotate(radians(s.rot));
+    fill(s.col);
+    stroke(0);
+    strokeWeight(s.sw);
+    rect(0, 0, s.w, s.h, s.round);
+    pop();
+  }
+}
+
+function mousePressed() {
+  state = (state + 1) % 5;
+  initShapes();
+}
+
+function initShapes() {
+  shapes = [];
+  let spacing;
+
+  switch (state) {
+    case 0: spacing = 200; break;
+    case 1: spacing = 160; break;
+    case 2: spacing = 100; break;
+    case 3: spacing = 50;  break;
+    case 4: spacing = 15;  break;
+  }
+
+  for (let i = 0; i < width; i += spacing) {
+    for (let j = 0; j < height; j += spacing) {
+      let col, w, h, sw, roundness;
+      switch (state) {
+        case 0:
+          w = h = 190; sw = 15; roundness = 0;
+          col = color(random(51), random(102), random(255));
+          break;
+        case 1:
+          w = h = 150; sw = 12; roundness = 5;
+          col = color(random(255), random(80), random(80));
+          break;
+        case 2:
+          w = h = 90; sw = 7; roundness = 10;
+          col = color(random(102), random(204), random(51));
+          break;
+        case 3:
+          w = h = 40; sw = 3; roundness = 15;
+          col = color(random(255), random(52), random(102));
+          break;
+        case 4:
+          w = h = 15; sw = 1; roundness = 50;
+          col = color(random(255), random(102), random(153));
+          break;
+      }
+      shapes.push({
+        x: i,
+        y: j,
+        dx: random(-2, 2),   // faster drifting
+        dy: random(-2, 2),
+        rot: random(360),    // start at random rotation
+        drot: random(-3, 3), // spin speed
+        w: w,
+        h: h,
+        round: roundness,
+        sw: sw,
+        col: col
+      });
+    }
+  }
+}
+</script>
+</body>
+</html>
