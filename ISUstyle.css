@@ -367,7 +367,7 @@
     .CTK240 {
       text-align: left;
       color: black;
-      font-size: 20px;
+      font-size: 18px;
       font-family: "Chakra Petch", sans-serif;
       text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
@@ -380,7 +380,7 @@
       text-align: left;
       color: black;
       padding-left: 17px;
-      font-size: 20px;
+      font-size: 18px;
       font-family: "Chakra Petch", sans-serif;
       text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
@@ -392,7 +392,7 @@
       text-align: left;
       color: black;
       padding-left: 17px;
-      font-size: 20px;
+      font-size: 18px;
       font-family: "Chakra Petch", sans-serif;
       text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
@@ -404,7 +404,7 @@
       text-align: left;
       color: black;
       padding-left: 17px;
-      font-size: 16px;
+      font-size: 18px;
       font-family: "Chakra Petch", sans-serif;
       text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
@@ -416,7 +416,7 @@
       text-align: left;
       color: black;
       padding-left: 17px;
-      font-size: 16px;
+      font-size: 18px;
       font-family: "Chakra Petch", sans-serif;
       text-shadow: 1px 1px 0px #db0000;
       text-decoration: underline;
@@ -536,7 +536,7 @@
 
   div {   
     height:575px;
-    width:357px;
+    width:348px;
     font:16px/26px Chakra Petch, sans-serif;
     overflow:auto
   }
@@ -675,7 +675,7 @@
     text-align: left;
     color: black;
     padding-left: 17px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Chakra Petch", sans-serif;
     text-shadow: 1px 1px 0px #db0000;
     text-decoration: underline;
@@ -687,7 +687,7 @@
     text-align: left;
     color: black;
     padding-left: 17px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Chakra Petch", sans-serif;
     text-shadow: 1px 1px 0px #db0000;
     text-decoration: underline;
@@ -808,7 +808,7 @@ iframe {
 
 div {   
   height:607px;
-  width:604px;
+  width:597px;
   font:16px/26px Chakra Petch, sans-serif;
   overflow:auto
 }
