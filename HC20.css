@@ -73,3 +73,33 @@ body {
     text-decoration: underline; /* Underline on hover */
     color: #333;               /* Slight color change on hover */
   }
+
+  /* -------- MOBILE STYLES -------- */
+@media (max-width: 768px) {
+  .shadowbox-container {
+    flex-direction: column;  /* Stack vertically */
+    gap: 15px;               /* Less spacing */
+  }
+
+  .hc2, .hc5 {
+    height: 180px;           /* Smaller on mobile */
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .hc3 {
+    height: 300px;           /* Reduce large image height */
+  }
+
+  .footer-text {
+    max-width: 90%;          /* Expand to fit screen */
+    font-size: 14px;
+    padding: 10px;
+  }
+}
