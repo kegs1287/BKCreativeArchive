@@ -105,6 +105,15 @@ body {
   max-width: 100%; /* Prevent overflow */
 }
 
+.quote {
+  margin: 15px auto;
+  font-style: italic;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  max-width: 90%;
+}
+
   /* -------- MOBILE STYLES -------- */
 @media (max-width: 768px) {
   .shadowbox-container {
@@ -143,6 +152,12 @@ body {
   .player {
     width: 220px;   /* Smaller for tablets/phones */
   }
+  .quote {
+    font-size: 15px;
+    max-width: 95%;  /* allow more width on smaller screens */
+    margin: 12px auto;
+    padding: 0 10px; /* add breathing room */
+  }
 }
 
 /* ---------- EXTRA-SMALL MOBILE (≤480px) ---------- */
@@ -176,5 +191,12 @@ body {
 
   .player {
     width: 180px;      /* Smaller audio player */
+  }
+  .quote {
+    font-size: 14px;
+    max-width: 100%; /* full width */
+    margin: 10px auto;
+    padding: 0 12px;
+    line-height: 1.4; /* tighter spacing */
   }
 }
