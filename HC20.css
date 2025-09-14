@@ -74,6 +74,31 @@ body {
     color: #333;               /* Slight color change on hover */
   }
 
+  		/* Home button styling */
+      .home-button {
+        display: inline-block;
+        margin: 15px auto;
+        padding: 10px 20px;
+        background: #f0f0f0;
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+      }
+  
+      .home-button:hover {
+        background: #e0e0e0;
+        color: #333;
+        transform: scale(1.05);
+      }
+  
+      /* Centering inside header */
+      .home-container {
+        text-align: center;
+      }
+
   /* -------- MOBILE STYLES -------- */
 @media (max-width: 768px) {
   .shadowbox-container {
