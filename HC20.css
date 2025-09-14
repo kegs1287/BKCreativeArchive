@@ -127,4 +127,11 @@ body {
     font-size: 14px;
     padding: 10px;
   }
+
+  .home-button {
+    width: 80%;         /* Full-width style button on mobile */
+    max-width: 300px;   /* Prevent over-expansion */
+    font-size: 16px;
+    padding: 12px;
+  }
 }
