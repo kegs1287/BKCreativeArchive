@@ -99,6 +99,12 @@ body {
         text-align: center;
       }
 
+    /* Default audio player */
+.player {
+  width: 300px;   /* Desktop width */
+  max-width: 100%; /* Prevent overflow */
+}
+
   /* -------- MOBILE STYLES -------- */
 @media (max-width: 768px) {
   .shadowbox-container {
@@ -133,5 +139,42 @@ body {
     max-width: 300px;   /* Prevent over-expansion */
     font-size: 16px;
     padding: 12px;
+  }
+  .player {
+    width: 220px;   /* Smaller for tablets/phones */
+  }
+}
+
+/* ---------- EXTRA-SMALL MOBILE (≤480px) ---------- */
+@media (max-width: 480px) {
+  .hc2, .hc5 {
+    height: 150px;   /* Shrink side images further */
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .hc3 {
+    height: 220px;   /* Much smaller large image */
+  }
+
+  .footer-text {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .home-button {
+    width: 90%;        /* Almost full-width */
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .player {
+    width: 180px;      /* Smaller audio player */
   }
 }
