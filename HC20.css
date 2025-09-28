@@ -12,7 +12,7 @@ body {
   }
   
   .hc2, .hc5 {
-    height: 230px;               /* Smaller image size */
+    height: 285px;               /* Smaller image size */
     width: auto;                  /* Keep aspect ratio */
   }
   
@@ -137,6 +137,11 @@ body {
   max-width: 90%;
 }
 
+.hc20 {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
   /* -------- MOBILE STYLES -------- */
 @media (max-width: 768px) {
   .shadowbox-container {
@@ -188,6 +193,11 @@ body {
     margin: 12px auto;
     padding: 0 10px; /* add breathing room */
   }
+
+  .hc20 {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
 }
 
 /* ---------- EXTRA-SMALL MOBILE (≤480px) ---------- */
@@ -234,5 +244,10 @@ body {
     margin: 10px auto;
     padding: 0 12px;
     line-height: 1.4; /* tighter spacing */
+  }
+
+  .hc20 {
+    margin-bottom: 0px;
+    font-size: 10px;
   }
 }
